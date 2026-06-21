@@ -1,0 +1,21 @@
+# Manipulação e análise de dados
+pandas
+numpy
+
+# Visualização
+matplotlib
+seaborn
+
+# Machine learning
+scikit-learn
+xgboost
+
+# Dados geográficos (útil para mapear desastres por região)
+geopandas
+
+# Requisições / coleta de dados
+requests
+
+# Ambiente de notebooks
+jupyter
+notebook

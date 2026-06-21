@@ -1,0 +1,56 @@
+# ===== Dados =====
+# Não versionar datasets (arquivos grandes / pesados).
+# Guarde os dados em um Drive compartilhado e documente no README.
+data/raw/*
+data/processed/*
+# mas mantém as pastas no repositório:
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ===== Modelos treinados =====
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== Ambientes virtuais =====
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ===== Editores / IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Sistema operacional =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Outros =====
+*.log
+.cache/
