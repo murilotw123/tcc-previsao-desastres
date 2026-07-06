@@ -103,10 +103,4 @@ compartilhado para `data/raw/` (a estrutura de pastas já existe no repo).
 4. Nunca commitem arquivos de dados grandes — o `.gitignore` já bloqueia,
    mas confiram o `git status` antes do commit.
 
-## Equipe
 
-- [Nome 1] — [usuário GitHub]
-- [Nome 2] — [usuário GitHub]
-
-**Orientador(a):** [Nome]
-**Instituição / Curso:** [preencher]
