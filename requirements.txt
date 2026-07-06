@@ -1,6 +1,8 @@
 # Manipulação e análise de dados
 pandas
 numpy
+pyarrow          # leitura/escrita dos parquets por estação
+openpyxl         # leitura do BD_Atlas (.xlsx)
 
 # Visualização
 matplotlib
@@ -10,8 +12,10 @@ seaborn
 scikit-learn
 xgboost
 
-# Dados geográficos (útil para mapear desastres por região)
+# Dados geográficos (ponte estação-município, malha do IBGE, rasters TOPODATA)
 geopandas
+geobr
+rasterio
 
 # Requisições / coleta de dados
 requests

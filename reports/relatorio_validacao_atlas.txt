@@ -1,0 +1,95 @@
+======================================================================
+RELATÓRIO DE VALIDAÇÃO — Atlas consolidado (Y)
+======================================================================
+
+[1] Estações: 152 no metadado | 142 com status 'incluida' | 3 na lista de exclusão | 142 mantidas
+    UFs das estações mantidas: {'MG': 66, 'SP': 37, 'RJ': 26, 'ES': 13}
+
+[2] Ponte espacial: 142 estações | 141 mapeadas pra IBGE | 1 via sjoin_nearest | 1 descartadas (nearest > 10 km)
+    DESCARTADA: C891 CRIOSFERA — município mais próximo a 6637 km (Cananéia); ponto fora da região, sugerir inclusão em stations_exclude.csv
+
+    Divergências nome ESTACAO vs município do join: 26
+      A555: ESTACAO='IBIRITE (ROLA MOCA)' vs município='Belo Horizonte' (3106200, MG)
+      A603: ESTACAO='DUQUE DE CAXIAS - XEREM' vs município='Duque de Caxias' (3301702, RJ)
+      A771: ESTACAO='SAO PAULO - INTERLAGOS' vs município='São Paulo' (3550308, SP)
+      A528: ESTACAO='TRES MARIAS' vs município='São Gonçalo do Abaeté' (3161700, MG)
+      A563: ESTACAO='NOVA PORTEIRINHA (JANAUBA)' vs município='Nova Porteirinha' (3145059, MG)
+      A613: ESTACAO='SANTA TERESA' vs município='Santa Leopoldina' (3204500, ES)
+      A635: ESTACAO='ITATIAIA' vs município='Resende' (3304201, RJ)
+      A557: ESTACAO='CORONEL PACHECO' vs município='Goianá' (3127388, MG)
+      A539: ESTACAO='MOCAMBINHO' vs município='Jaíba' (3135050, MG)
+      A620: ESTACAO='CAMPOS DOS GOYTACAZES - SAO TOME' vs município='Campos dos Goytacazes' (3301009, RJ)
+      A701: ESTACAO='SAO PAULO - MIRANTE' vs município='São Paulo' (3550308, SP)
+      A624: ESTACAO='NOVA FRIBURGO - SALINAS' vs município='Nova Friburgo' (3303401, RJ)
+      A621: ESTACAO='RIO DE JANEIRO - VILA MILITAR' vs município='Rio de Janeiro' (3304557, RJ)
+      A636: ESTACAO='RIO DE JANEIRO - JACAREPAGUA' vs município='Rio de Janeiro' (3304557, RJ)
+      A509: ESTACAO='MONTE VERDE' vs município='Camanducaia' (3110509, MG)
+      A713: ESTACAO='SOROCABA' vs município='Iperó' (3521002, SP)
+      A602: ESTACAO='RIO DE JANEIRO-MARAMBAIA' vs município='Rio de Janeiro' (3304557, RJ)
+      A734: ESTACAO='VALPARAISO' vs município='Bento de Abreu' (3506201, SP)
+      F501: ESTACAO='BELO HORIZONTE - CERCADINHO' vs município='Belo Horizonte' (3106200, MG)
+      A559: ESTACAO='JANUARIA' vs município='Cônego Marinho' (3117836, MG)
+      A618: ESTACAO='TERESOPOLIS-PARQUE NACIONAL' vs município='Teresópolis' (3305802, RJ)
+      A652: ESTACAO='RIO DE JANEIRO - FORTE DE COPACABANA' vs município='Rio de Janeiro' (3304557, RJ)
+      A601: ESTACAO='SEROPEDICA-ECOLOGIA AGRICOLA' vs município='Seropédica' (3305554, RJ)
+      A667: ESTACAO='SAQUAREMA - SAMPAIO CORREIA' vs município='Saquarema' (3305505, RJ)
+      A637: ESTACAO='Paty do Alferes - Avelar' vs município='Paty do Alferes' (3303856, RJ)
+      A521: ESTACAO='BELO HORIZONTE (PAMPULHA)' vs município='Belo Horizonte' (3106200, MG)
+
+    Municípios distintos com estação: 133
+
+[3] Atlas: 62273 registros na aba | região Sudeste: 13686 | + COBRADE hidro: 5177 | + anos 2008-2022: 2717
+    Após dedup (ibge x data): 2672 eventos (45 duplicatas removidas)
+
+[4] Eventos Sudeste: 2672 | retidos em municípios com estação: 403 (15.1%)
+
+[5] Eventos por ano (Sudeste vs c/ estação):
+      sudeste  c_estacao
+ano                     
+2008      238         35
+2009      478         65
+2010      307         47
+2011      335         46
+2012      273         30
+2013      273         52
+2014       37          3
+2015       30          4
+2016      110         12
+2017       52          4
+2018      104         21
+2019       53          8
+2020      122         23
+2021      114         24
+2022      146         29
+    OK: nenhum ano do recorte ficou com 0 eventos.
+
+    Eventos por UF (Sudeste vs c/ estação):
+    sudeste  c_estacao
+uf                    
+ES      437         75
+MG     1086        124
+RJ      393        120
+SP      756         84
+
+    Top 15 municípios com mais eventos (entre os com estação):
+ibge     municipio               uf
+3301009  Campos dos Goytacazes   RJ    20
+3550308  São Paulo               SP    20
+3305604  Silva Jardim            RJ    17
+3203205  Linhares                ES    14
+3300100  Angra dos Reis          RJ    11
+3200300  Alfredo Chaves          ES    11
+3527108  Lins                    SP    10
+3203908  Nova Venécia            ES    10
+3550001  São Luiz do Paraitinga  SP     9
+3106200  Belo Horizonte          MG     9
+3204500  Santa Leopoldina        ES     9
+3205200  Vila Velha              ES     8
+3301702  Duque de Caxias         RJ     8
+3304607  Santa Maria Madalena    RJ     8
+3306107  Valença                 RJ     8
+
+    Distribuição por COBRADE (retidos): {np.int64(12200): 153, np.int64(12100): 149, np.int64(12300): 101}
+
+CSVs gerados em (staging): /private/tmp/claude-501/-Users-murilomoraesdeassis-Library-CloudStorage-GoogleDrive-muassis38-gmail-com--shortcut-targets-by-id-1UnEI-5Akxqt2LjOHdfQYxO5gDMzoyoHg-TCC/a80d108d-b946-4b62-a2b5-b43264c10613/scratchpad/staging
+======================================================================

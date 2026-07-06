@@ -1,93 +1,107 @@
-# Previsão de Desastres Naturais
+# Previsão de Desastres Hidrológicos com Machine Learning — TCC
 
 Projeto de ciência de dados desenvolvido como Trabalho de Conclusão de Curso (TCC).
-O objetivo é construir um modelo capaz de **prever a ocorrência de desastres naturais**
-a partir de dados históricos, climáticos e geográficos.
-
-> **Personalize esta seção:** descreva qual desastre vocês vão prever (enchente,
-> deslizamento, seca, queimada, etc.), a região de estudo e a pergunta central do trabalho.
-
----
-
-## Objetivos
-
-- **Geral:** desenvolver um modelo preditivo para [tipo de desastre] na região de [local].
-- **Específicos:**
-  - Coletar e tratar dados históricos de [fonte].
-  - Realizar análise exploratória para identificar padrões e variáveis relevantes.
-  - Treinar e comparar diferentes modelos de machine learning.
-  - Avaliar o desempenho e discutir os resultados.
+O objetivo é construir um modelo capaz de **prever a ocorrência de desastres
+hidrológicos (inundações, enxurradas e alagamentos) na região Sudeste do Brasil**
+a partir de dados pluviométricos das estações automáticas do INMET e do registro
+histórico de desastres do Atlas Digital de Desastres no Brasil.
 
 ---
 
-## Estrutura do projeto
+## Dados
+
+| Fonte | Conteúdo | Onde está |
+|-------|----------|-----------|
+| INMET | Pluviometria horária das estações automáticas | **Google Drive** (`TCC/INMET_consolidado3.csv`, 2,8 GB — grande demais para manter local) |
+| Atlas Digital de Desastres (1991–2022) | Registros oficiais de desastres por município (COBRADE) | `data/raw/BD_Atlas_1991_2022.xlsx` |
+| TOPODATA/INPE | Variáveis topográficas por município do Sudeste | `data/raw/topodata_sudeste_municipios.csv` |
+
+**Recorte do projeto:** 2008–2022 (overlap entre a série das estações e o Atlas),
+região Sudeste, COBRADEs hidrológicos `{12100, 12200, 12300}`.
+
+> ⚠️ **Arquivos grandes NÃO ficam no GitHub nem nesta máquina** — a cópia
+> canônica é a pasta compartilhada **TCC** do Google Drive (INMET consolidado,
+> pluviometria Brasil 2025, versões antigas do pipeline em `export_tabelas_old`
+> e `imputed_by_station_old/v2/v3`). O `.gitignore` bloqueia `data/raw/`,
+> `data/archive/`, `*.parquet` e `models/`. Só vão para o git os arquivos
+> pequenos: código, docs, metadados, tabela-alvo Y e relatórios.
+
+## Estrutura do repositório
 
 ```
-tcc-previsao-desastres/
-├── README.md               # este arquivo
-├── requirements.txt        # bibliotecas necessárias
-├── .gitignore              # arquivos que NÃO vão para o GitHub
+tccfiles/
+├── README.md
+├── requirements.txt
+├── .gitignore
 ├── data/
-│   ├── raw/                # dados originais, nunca alterados manualmente
-│   └── processed/          # dados já limpos e tratados
-├── notebooks/              # Jupyter notebooks de exploração e experimentos
-├── src/                    # código-fonte reutilizável (.py)
-│   ├── data/               # scripts de coleta e limpeza de dados
-│   ├── features/           # criação e transformação de variáveis
-│   └── models/             # treino, avaliação e previsão
-├── models/                 # modelos treinados salvos (.pkl, .joblib)
-└── reports/
-    └── figures/            # gráficos e imagens gerados para o relatório
+│   ├── raw/            # dados originais (Drive; não versionados)
+│   ├── metadata/       # metadados das estações, ponte estação↔município, exclusões
+│   ├── processed/      # saídas do pipeline: Y de eventos + parquets imputados por estação
+│   └── archive/        # versões antigas do pipeline (Drive; não versionadas)
+├── docs/               # documentação metodológica (Semana 1 e 2), especificações de tarefas
+├── notebooks/          # Jupyter notebooks de exploração e experimentos
+├── src/                # código-fonte reutilizável (.py)
+│   ├── data/           # coleta, limpeza e imputação
+│   ├── features/       # criação e transformação de variáveis
+│   └── models/         # treino, avaliação e previsão
+├── models/             # modelos treinados salvos (não versionados)
+└── reports/            # relatórios de imputação/validação e figuras
+    └── figures/
 ```
 
-**Regra importante:** os dados em `data/` NÃO são versionados no GitHub (veja o `.gitignore`).
-Combine com a equipe de guardar os datasets em um local compartilhado (ex.: Google Drive)
-e documente abaixo de onde baixá-los.
+## Código
 
----
+- `src/data/processar_inmet.py` — consolida os CSVs anuais brutos do INMET
+  (extrai os 8 campos do cabeçalho para colunas e concatena tudo).
+- `src/data/topodata_mosaico.py` — monta o mosaico GeoTIFF de declividade do
+  Sudeste a partir dos rasters do TOPODATA.
+- `notebooks/01_extract_inmet.ipynb` — extração/consolidação da base INMET.
+- `notebooks/02_extract_s2id.ipynb` — extração dos registros de desastres (S2iD/Atlas).
+- `notebooks/TOPODATA_Sudeste.ipynb` — processamento das variáveis topográficas.
+
+## Pipeline (estado atual)
+
+1. **Consolidação** da pluviometria do INMET (`src/data/processar_inmet.py` →
+   `INMET_consolidado3.csv`, no Drive).
+2. **Controle de qualidade e imputação por estação** — parquets por estação em
+   `data/processed/imputed_by_station_final/` (142 estações); estações com falhas
+   crônicas foram separadas em `imputed_by_station_excluidas_cronicas/`.
+   Relatórios de cada rodada em `reports/imputation_report*.csv`.
+3. **Metadados e exclusões** — `data/metadata/metadados_estacoes.csv` +
+   `stations_exclude.csv` (estações com >30% de missing ou série curta;
+   inclui a exclusão da estação C891/CRIOSFERA, na Antártida mas rotulada SP).
+4. **Ponte estação ↔ município (IBGE)** — join espacial com a malha municipal,
+   `data/metadata/bridge_estacao_municipio.csv` (141 estações mapeadas).
+5. **Tabela-alvo (Y)** — eventos do Atlas filtrados por recorte:
+   `data/processed/y_eventos_sudeste.csv` (todo o Sudeste, referência) e
+   `data/processed/y_eventos_estacoes.csv` (**entregável**: só municípios com estação).
+   Validação em `reports/relatorio_validacao_atlas.txt`.
+   Especificação completa em `docs/TASK_atlas_consolidado.md`.
 
 ## Como configurar o ambiente
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/SEU-USUARIO/tcc-previsao-desastres.git
-   cd tcc-previsao-desastres
-   ```
+```bash
+git clone https://github.com/murilotw123/tcc-previsao-desastres.git
+cd tcc-previsao-desastres
 
-2. (Recomendado) Crie um ambiente virtual:
-   ```bash
-   python -m venv venv
-   # Linux/Mac:
-   source venv/bin/activate
-   # Windows:
-   venv\Scripts\activate
-   ```
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
 
-3. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
+pip install -r requirements.txt
+jupyter notebook
+```
 
-4. Inicie o Jupyter para explorar os notebooks:
-   ```bash
-   jupyter notebook
-   ```
+Depois de clonar, baixe os dados brutos da pasta **TCC** do Google Drive
+compartilhado para `data/raw/` (a estrutura de pastas já existe no repo).
 
----
+## Fluxo de trabalho da equipe
 
-## Fontes de dados
-
-| Fonte | Descrição | Link |
-|-------|-----------|------|
-| EM-DAT | Base internacional de desastres | https://www.emdat.be |
-| INMET | Dados meteorológicos do Brasil | https://portal.inmet.gov.br |
-| INPE | Queimadas e dados de satélite | https://www.gov.br/inpe |
-| NASA / NOAA | Dados climáticos e de satélite | — |
-
-> Preencha esta tabela com as fontes que vocês realmente usarem e onde os arquivos
-> estão guardados (link do Drive, etc.).
-
----
+1. Sempre rode `git pull` antes de começar a mexer.
+2. Trabalhem em notebooks/arquivos separados sempre que possível.
+3. Para mudanças maiores, usem branches (`git checkout -b nome-da-tarefa`)
+   e abram Pull Request para juntar o trabalho.
+4. Nunca commitem arquivos de dados grandes — o `.gitignore` já bloqueia,
+   mas confiram o `git status` antes do commit.
 
 ## Equipe
 
@@ -96,18 +110,3 @@ e documente abaixo de onde baixá-los.
 
 **Orientador(a):** [Nome]
 **Instituição / Curso:** [preencher]
-
----
-
-## Fluxo de trabalho da equipe
-
-Para evitar conflitos ao trabalhar em dupla:
-
-1. Sempre rode `git pull` antes de começar a mexer.
-2. Trabalhem em notebooks/arquivos separados sempre que possível.
-3. Para mudanças maiores, usem branches:
-   ```bash
-   git checkout -b nome-da-sua-tarefa
-   ```
-   e depois abram um Pull Request no GitHub para juntar o trabalho.
-4. Façam `git push` ao terminar, com mensagens de commit claras.

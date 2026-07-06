@@ -1,11 +1,21 @@
-# ===== Dados =====
-# Não versionar datasets (arquivos grandes / pesados).
-# Guarde os dados em um Drive compartilhado e documente no README.
+# ===== Dados grandes — NÃO versionados (ficam no Google Drive) =====
+# Brutos (CSV do INMET de 2,8 GB, Atlas, etc.)
 data/raw/*
-data/processed/*
-# mas mantém as pastas no repositório:
 !data/raw/.gitkeep
-!data/processed/.gitkeep
+
+# Versões antigas / superadas do pipeline
+data/archive/*
+!data/archive/.gitkeep
+
+# Parquets imputados por estação (centenas de arquivos, ~700 MB no total)
+data/processed/imputed_by_station_final/
+data/processed/imputed_by_station_excluidas_cronicas/
+*.parquet
+
+# Os CSVs pequenos são versionados de propósito:
+#   data/metadata/  (metadados das estações, ponte estação-município, exclusões)
+#   data/processed/y_eventos_*.csv  (tabela-alvo Y)
+#   reports/        (relatórios de imputação e validação)
 
 # ===== Modelos treinados =====
 models/*
@@ -20,11 +30,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
-.Python
 build/
 dist/
 *.egg-info/
-.installed.cfg
 *.egg
 
 # ===== Ambientes virtuais =====
@@ -36,7 +44,6 @@ ENV/
 
 # ===== Jupyter Notebook =====
 .ipynb_checkpoints/
-*/.ipynb_checkpoints/*
 profile_default/
 ipython_config.py
 
@@ -50,6 +57,10 @@ ipython_config.py
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# ===== Google Drive =====
+*.gsheet
+*.gdoc
 
 # ===== Outros =====
 *.log
