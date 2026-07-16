@@ -1,95 +1,116 @@
 ======================================================================
-RELATÓRIO DE VALIDAÇÃO — Atlas consolidado (Y)
+RELATORIO DE VALIDACAO — Atlas consolidado (Y)  [BD_Atlas_1991_2025_v1]
+Gerado: 2026-07-15 | data do evento = Data_Evento | dedup ibge x data
 ======================================================================
 
-[1] Estações: 152 no metadado | 142 com status 'incluida' | 3 na lista de exclusão | 142 mantidas
-    UFs das estações mantidas: {'MG': 66, 'SP': 37, 'RJ': 26, 'ES': 13}
+[0] Fonte: BD_Atlas_1991_2025_v1.xlsx
+    Aba: 'Atlas Valores Originais'  (70 colunas)
+    Linhas na aba: 76,191
+    Descartadas (Data_Registro em 2026): 88
+    Universo de trabalho: 76,103
 
-[2] Ponte espacial: 142 estações | 141 mapeadas pra IBGE | 1 via sjoin_nearest | 1 descartadas (nearest > 10 km)
-    DESCARTADA: C891 CRIOSFERA — município mais próximo a 6637 km (Cananéia); ponto fora da região, sugerir inclusão em stations_exclude.csv
+[1] Bridge reutilizada: bridge_estacao_municipio.csv  (141 estacoes | 133 municipios distintos com estacao)
 
-    Divergências nome ESTACAO vs município do join: 26
-      A555: ESTACAO='IBIRITE (ROLA MOCA)' vs município='Belo Horizonte' (3106200, MG)
-      A603: ESTACAO='DUQUE DE CAXIAS - XEREM' vs município='Duque de Caxias' (3301702, RJ)
-      A771: ESTACAO='SAO PAULO - INTERLAGOS' vs município='São Paulo' (3550308, SP)
-      A528: ESTACAO='TRES MARIAS' vs município='São Gonçalo do Abaeté' (3161700, MG)
-      A563: ESTACAO='NOVA PORTEIRINHA (JANAUBA)' vs município='Nova Porteirinha' (3145059, MG)
-      A613: ESTACAO='SANTA TERESA' vs município='Santa Leopoldina' (3204500, ES)
-      A635: ESTACAO='ITATIAIA' vs município='Resende' (3304201, RJ)
-      A557: ESTACAO='CORONEL PACHECO' vs município='Goianá' (3127388, MG)
-      A539: ESTACAO='MOCAMBINHO' vs município='Jaíba' (3135050, MG)
-      A620: ESTACAO='CAMPOS DOS GOYTACAZES - SAO TOME' vs município='Campos dos Goytacazes' (3301009, RJ)
-      A701: ESTACAO='SAO PAULO - MIRANTE' vs município='São Paulo' (3550308, SP)
-      A624: ESTACAO='NOVA FRIBURGO - SALINAS' vs município='Nova Friburgo' (3303401, RJ)
-      A621: ESTACAO='RIO DE JANEIRO - VILA MILITAR' vs município='Rio de Janeiro' (3304557, RJ)
-      A636: ESTACAO='RIO DE JANEIRO - JACAREPAGUA' vs município='Rio de Janeiro' (3304557, RJ)
-      A509: ESTACAO='MONTE VERDE' vs município='Camanducaia' (3110509, MG)
-      A713: ESTACAO='SOROCABA' vs município='Iperó' (3521002, SP)
-      A602: ESTACAO='RIO DE JANEIRO-MARAMBAIA' vs município='Rio de Janeiro' (3304557, RJ)
-      A734: ESTACAO='VALPARAISO' vs município='Bento de Abreu' (3506201, SP)
-      F501: ESTACAO='BELO HORIZONTE - CERCADINHO' vs município='Belo Horizonte' (3106200, MG)
-      A559: ESTACAO='JANUARIA' vs município='Cônego Marinho' (3117836, MG)
-      A618: ESTACAO='TERESOPOLIS-PARQUE NACIONAL' vs município='Teresópolis' (3305802, RJ)
-      A652: ESTACAO='RIO DE JANEIRO - FORTE DE COPACABANA' vs município='Rio de Janeiro' (3304557, RJ)
-      A601: ESTACAO='SEROPEDICA-ECOLOGIA AGRICOLA' vs município='Seropédica' (3305554, RJ)
-      A667: ESTACAO='SAQUAREMA - SAMPAIO CORREIA' vs município='Saquarema' (3305505, RJ)
-      A637: ESTACAO='Paty do Alferes - Avelar' vs município='Paty do Alferes' (3303856, RJ)
-      A521: ESTACAO='BELO HORIZONTE (PAMPULHA)' vs município='Belo Horizonte' (3106200, MG)
+[2] Funil (por Data_Evento):
+    Universo 76,103 -> Sudeste 16,437 -> + COBRADE hidro 5,334 -> + anos 2008-2022 2,685
+    Apos dedup (ibge x data): 2,659 eventos (26 duplicatas removidas)
 
-    Municípios distintos com estação: 133
+[3] Eventos Sudeste: 2,659 | retidos em municipios com estacao: 401 (15.1%)
 
-[3] Atlas: 62273 registros na aba | região Sudeste: 13686 | + COBRADE hidro: 5177 | + anos 2008-2022: 2717
-    Após dedup (ibge x data): 2672 eventos (45 duplicatas removidas)
-
-[4] Eventos Sudeste: 2672 | retidos em municípios com estação: 403 (15.1%)
-
-[5] Eventos por ano (Sudeste vs c/ estação):
+[4] Eventos por ano (Sudeste vs c/ estacao):
       sudeste  c_estacao
 ano                     
 2008      238         35
-2009      478         65
-2010      307         47
-2011      335         46
-2012      273         30
-2013      273         52
+2009      476         65
+2010      303         47
+2011      333         46
+2012      271         30
+2013      271         52
 2014       37          3
 2015       30          4
 2016      110         12
-2017       52          4
-2018      104         21
-2019       53          8
-2020      122         23
-2021      114         24
-2022      146         29
-    OK: nenhum ano do recorte ficou com 0 eventos.
+2017       51          4
+2018      100         19
+2019       52          8
+2020      118         22
+2021      108         22
+2022      161         32
+    OK: nenhum ano com 0 eventos.
 
-    Eventos por UF (Sudeste vs c/ estação):
+[5] Eventos por UF:
     sudeste  c_estacao
 uf                    
-ES      437         75
-MG     1086        124
-RJ      393        120
-SP      756         84
+ES      432         74
+MG     1083        121
+RJ      393        122
+SP      751         84
 
-    Top 15 municípios com mais eventos (entre os com estação):
-ibge     municipio               uf
-3301009  Campos dos Goytacazes   RJ    20
-3550308  São Paulo               SP    20
-3305604  Silva Jardim            RJ    17
-3203205  Linhares                ES    14
-3300100  Angra dos Reis          RJ    11
-3200300  Alfredo Chaves          ES    11
-3527108  Lins                    SP    10
-3203908  Nova Venécia            ES    10
-3550001  São Luiz do Paraitinga  SP     9
-3106200  Belo Horizonte          MG     9
-3204500  Santa Leopoldina        ES     9
-3205200  Vila Velha              ES     8
-3301702  Duque de Caxias         RJ     8
-3304607  Santa Maria Madalena    RJ     8
-3306107  Valença                 RJ     8
+[6] Distribuicao por tipologia (retidos c/ estacao): {'Enxurradas': 153, 'Inundacoes': 147, 'Alagamentos': 101}
 
-    Distribuição por COBRADE (retidos): {np.int64(12200): 153, np.int64(12100): 149, np.int64(12300): 101}
+======================================================================
+COMPARATIVO  ANTIGO (1991-2022)  ->  NOVO (1991-2025_v1)
+======================================================================
+  Registros totais na base : 62,273  ->  76,191
+  Hidro-SE 2008-2022 dedup : 2,672  ->  2,659  (delta -13)
+  Em municipios c/ estacao : 403  ->  401  (delta -2)
 
-CSVs gerados em (staging): /private/tmp/claude-501/-Users-murilomoraesdeassis-Library-CloudStorage-GoogleDrive-muassis38-gmail-com--shortcut-targets-by-id-1UnEI-5Akxqt2LjOHdfQYxO5gDMzoyoHg-TCC/a80d108d-b946-4b62-a2b5-b43264c10613/scratchpad/staging
+  Distribuicao por ano lado a lado (Sudeste dedup):
+    ano   antigo   novo   delta   flag
+    2008     238     238      +0   
+    2009     478     476      -2   <-- MUDOU
+    2010     307     303      -4   <-- MUDOU
+    2011     335     333      -2   <-- MUDOU
+    2012     273     271      -2   <-- MUDOU
+    2013     273     271      -2   <-- MUDOU
+    2014      37      37      +0   
+    2015      30      30      +0   
+    2016     110     110      +0   
+    2017      52      51      -1   <-- MUDOU
+    2018     104     100      -4   <-- MUDOU
+    2019      53      52      -1   <-- MUDOU
+    2020     122     118      -4   <-- MUDOU
+    2021     114     108      -6   <-- MUDOU
+    2022     146     161     +15   <-- MUDOU
+
+  Distribuicao por tipologia (retidos c/ estacao):
+    Enxurradas  :  153  ->   153  (+0)
+    Inundacoes  :  149  ->   147  (-2)
+    Alagamentos :  101  ->   101  (+0)
+
+======================================================================
+POTENCIAL 2023-2025 (por Data_Evento; NAO incluido no Y — X so vai ate 2022-12-31)
+======================================================================
+      sudeste  c_estacao
+ano                     
+2023       82         12
+2024       72          7
+2025       49         11
+    TOTAL 2023-2025: Sudeste 203 | c/ estacao 30
+    -> 30 positivos novos potenciais se o X for estendido a 2025.
+
+======================================================================
+(a) VIES DE DIA-DA-SEMANA — hidro-SE 2008-2022 (registros, sem dedup)
+======================================================================
+
+  [Data_Evento]  n=2,685
+    Seg:509  Ter:453  Qua:459  Qui:423  Sex:380  Sab:230  Dom:231
+    fim de semana observado: 17.2%  | esperado: 28.6%  | deficit relativo: +39.9%
+
+  [Data_Registro]  n=2,680
+    Seg:553  Ter:471  Qua:481  Qui:432  Sex:383  Sab:176  Dom:184
+    fim de semana observado: 13.4%  | esperado: 28.6%  | deficit relativo: +53.0%
+
+  CONCLUSAO: deficit de fim de semana  Registro=+53.0%  Evento=+39.9%
+    -> O deficit DIMINUI ao usar Data_Evento (+53.0% -> +39.9%), reducao de 13.1 p.p.
+
+======================================================================
+(b) QUEBRA ESTRUTURAL 2014 — serie anual hidro-SE dedup (Data_Evento)
+======================================================================
+    2008:238  2009:476  2010:303  2011:333  2012:271  2013:271  2014:37  2015:30  2016:110  2017:51  2018:100  2019:52  2020:118  2021:108  2022:161
+    media 2008-2013: 315.3/ano | media 2014-2022: 85.2/ano | queda: 73.0%
+    2013->2014: 271 -> 37 (-86%)
+    -> A quebra de 2014 PERSISTE na serie por Data_Evento (queda abrupta e sustentada apos 2013).
+
+======================================================================
+Saidas: data/processed/y_eventos_sudeste.csv | data/processed/y_eventos_estacoes.csv
 ======================================================================

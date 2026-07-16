@@ -1,6 +1,5 @@
 ﻿protocolo,municipio,uf,data,cobrade,ibge,regiao,descricao_tipologia,grupo_de_desastre,evento
 MG-N-3100104-12200-20110321,Abadia dos Dourados,MG,2011-01-23,12200,3100104,Sudeste,Enxurradas,Hidrológico,1
-MG-A-3100104-12200-20110321,Abadia dos Dourados,MG,2011-03-21,12200,3100104,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3100104-12200-20111219,Abadia dos Dourados,MG,2011-12-19,12200,3100104,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3100203-12100-20220105,Abaeté,MG,2022-01-05,12100,3100203,Sudeste,Inundações,Hidrológico,1
 MG-N-3100302-12100-20090105,Abre Campo,MG,2009-01-05,12100,3100302,Sudeste,Inundações,Hidrológico,1
@@ -42,7 +41,6 @@ MG-A-3102100-12100-20090109,Alto Rio Doce,MG,2009-01-09,12100,3102100,Sudeste,In
 MG-F-3102100-12300-20130302,Alto Rio Doce,MG,2013-03-06,12300,3102100,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3102209-12100-20090107,Alvarenga,MG,2009-01-07,12100,3102209,Sudeste,Inundações,Hidrológico,1
 MG-A-3102209-12100-20091231,Alvarenga,MG,2009-12-31,12100,3102209,Sudeste,Inundações,Hidrológico,1
-MG-F-3102209-12100-20200126,Alvarenga,MG,2020-01-26,12100,3102209,Sudeste,Inundações,Hidrológico,1
 MG-A-3102308-12100-20080130,Alvinópolis,MG,2008-01-30,12100,3102308,Sudeste,Inundações,Hidrológico,1
 MG-A-3102308-12200-20090127,Alvinópolis,MG,2009-01-27,12200,3102308,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3102308-12100-20211110,Alvinópolis,MG,2021-11-11,12100,3102308,Sudeste,Inundações,Hidrológico,1
@@ -77,7 +75,6 @@ MG-F-3105608-12300-20220110,Barbacena,MG,2022-01-10,12300,3105608,Sudeste,Alagam
 MG-F-3105608-12300-20220112,Barbacena,MG,2022-01-12,12300,3105608,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3105608-12300-20220328,Barbacena,MG,2022-03-28,12300,3105608,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3105707-12100-20111216,Barra Longa,MG,2011-12-16,12100,3105707,Sudeste,Inundações,Hidrológico,1
-MG-A-3105707-12100-20120108,Barra Longa,MG,2012-01-08,12100,3105707,Sudeste,Inundações,Hidrológico,1
 MG-A-3105905-12100-20120109,Barroso,MG,2012-01-09,12100,3105905,Sudeste,Inundações,Hidrológico,1
 MG-A-3106101-12100-20081113,Belmiro Braga,MG,2008-11-13,12100,3106101,Sudeste,Inundações,Hidrológico,1
 MG-A-3106101-12200-20101125,Belmiro Braga,MG,2010-11-25,12200,3106101,Sudeste,Enxurradas,Hidrológico,1
@@ -102,6 +99,7 @@ MG-A-3107307-12100-20120111,Bocaiúva,MG,2012-01-11,12100,3107307,Sudeste,Inunda
 MG-F-3107802-12100-20220109,Bom Jesus do Galho,MG,2022-01-09,12100,3107802,Sudeste,Inundações,Hidrológico,1
 MG-F-3108107-12100-20220110,Bonfim,MG,2022-01-10,12100,3108107,Sudeste,Inundações,Hidrológico,1
 MG-F-3108206-12100-20131217,Bonfinópolis de Minas,MG,2013-12-18,12100,3108206,Sudeste,Inundações,Hidrológico,1
+MG-F-3108206-12200-20220213,Bonfinópolis de Minas,MG,2022-02-13,12200,3108206,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3108255-12200-20090130,Bonito de Minas,MG,2009-01-30,12200,3108255,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3108255-12200-20110207,Bonito de Minas,MG,2011-02-07,12200,3108255,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3108255-12200-20120116,Bonito de Minas,MG,2012-01-16,12200,3108255,Sudeste,Enxurradas,Hidrológico,1
@@ -144,6 +142,7 @@ MG-F-3110509-12300-20140317,Camanducaia,MG,2014-03-19,12300,3110509,Sudeste,Alag
 MG-F-3110509-12300-20160101,Camanducaia,MG,2016-01-01,12300,3110509,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3110509-12300-20160115,Camanducaia,MG,2016-01-15,12300,3110509,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3110707-12100-20110106,Cambuquira,MG,2011-01-06,12100,3110707,Sudeste,Inundações,Hidrológico,1
+MG-F-3110707-12200-20220107,Cambuquira,MG,2022-01-07,12200,3110707,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3110806-12200-20090123,Campanário,MG,2009-01-23,12200,3110806,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3110806-12200-20120109,Campanário,MG,2012-01-09,12200,3110806,Sudeste,Enxurradas,Hidrológico,1
 MG-D-3111002-12100-20080123,Campestre,MG,2008-01-23,12100,3111002,Sudeste,Inundações,Hidrológico,1
@@ -155,7 +154,6 @@ MG-F-3111408-12200-20150309,Campo Florido,MG,2015-05-12,12200,3111408,Sudeste,En
 MG-A-3111606-12200-20110311,Campos Gerais,MG,2011-03-11,12200,3111606,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3111705-12100-20081222,Canaã,MG,2008-12-22,12100,3111705,Sudeste,Inundações,Hidrológico,1
 MG-A-3112000-12200-20120117,Candeias,MG,2012-01-17,12200,3112000,Sudeste,Enxurradas,Hidrológico,1
-MG-F-3112000-12300-20171221,Candeias,MG,2017-12-21,12300,3112000,Sudeste,Alagamentos,Hidrológico,1
 MG-J-3112307-12200-20120131,Capelinha,MG,2012-01-31,12200,3112307,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3112604-12200-20100106,Capinópolis,MG,2010-01-06,12200,3112604,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3112653-12200-20101229,Capitão Andrade,MG,2010-12-29,12200,3112653,Sudeste,Enxurradas,Hidrológico,1
@@ -275,7 +273,6 @@ MG-A-3120151-12100-20090107,Crisólita,MG,2009-01-07,12100,3120151,Sudeste,Inund
 MG-F-3120151-12300-20211210,Crisólita,MG,2021-12-10,12300,3120151,Sudeste,Alagamentos,Hidrológico,1
 MG-D-3120300-12200-20090105,Cristália,MG,2009-01-05,12200,3120300,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3120300-12200-20131218,Cristália,MG,2013-12-27,12200,3120300,Sudeste,Enxurradas,Hidrológico,1
-MG-F-3120409-12100-20200228,Cristiano Otoni,MG,2020-02-28,12100,3120409,Sudeste,Inundações,Hidrológico,1
 MG-F-3120508-12100-20160116,Cristina,MG,2016-01-16,12100,3120508,Sudeste,Inundações,Hidrológico,1
 MG-A-3120607-12100-20090110,Crucilândia,MG,2009-01-10,12100,3120607,Sudeste,Inundações,Hidrológico,1
 MG-A-3120607-12100-20120102,Crucilândia,MG,2012-01-02,12100,3120607,Sudeste,Inundações,Hidrológico,1
@@ -297,7 +294,7 @@ MG-A-3122207-12200-20081225,Divinolândia de Minas,MG,2008-12-25,12200,3122207,S
 MG-A-3122207-12200-20110107,Divinolândia de Minas,MG,2011-01-07,12200,3122207,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3122207-12100-20131218,Divinolândia de Minas,MG,2013-12-18,12100,3122207,Sudeste,Inundações,Hidrológico,1
 MG-A-3122306-12100-20120103,Divinópolis,MG,2012-01-03,12100,3122306,Sudeste,Inundações,Hidrológico,1
-MG-F-3122306-12100-20220107,Divinópolis,MG,2022-01-07,12100,3122306,Sudeste,Inundações,Hidrológico,1
+MG-F-3122306-12300-20220107,Divinópolis,MG,2022-01-07,12300,3122306,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3122454-12200-20211210,Divisópolis,MG,2021-12-15,12200,3122454,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3122504-12200-20090331,Dom Cavati,MG,2009-03-31,12200,3122504,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3122504-12200-20160126,Dom Cavati,MG,2016-01-26,12200,3122504,Sudeste,Enxurradas,Hidrológico,1
@@ -316,7 +313,6 @@ MG-A-3123700-12100-20101230,Engenheiro Caldas,MG,2010-12-30,12100,3123700,Sudest
 MG-A-3123700-12200-20120106,Engenheiro Caldas,MG,2012-01-06,12200,3123700,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3123700-12100-20130201,Engenheiro Caldas,MG,2013-02-04,12100,3123700,Sudeste,Inundações,Hidrológico,1
 MG-F-3123700-12100-20131223,Engenheiro Caldas,MG,2013-12-28,12100,3123700,Sudeste,Inundações,Hidrológico,1
-MG-F-3123700-12100-20180309,Engenheiro Caldas,MG,2018-03-09,12100,3123700,Sudeste,Inundações,Hidrológico,1
 MG-A-3123858-12200-20090411,Entre Folhas,MG,2009-04-11,12200,3123858,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3123858-12100-20101225,Entre Folhas,MG,2010-12-25,12100,3123858,Sudeste,Inundações,Hidrológico,1
 MG-F-3123858-12100-20220109,Entre Folhas,MG,2022-01-09,12100,3123858,Sudeste,Inundações,Hidrológico,1
@@ -326,7 +322,6 @@ MG-A-3124104-12100-20111227,Esmeraldas,MG,2011-12-27,12100,3124104,Sudeste,Inund
 MG-P-3124203-12200-20101229,Espera Feliz,MG,2010-12-29,12200,3124203,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3124203-12300-20110308,Espera Feliz,MG,2011-03-08,12300,3124203,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3124203-12200-20120103,Espera Feliz,MG,2012-01-03,12200,3124203,Sudeste,Enxurradas,Hidrológico,1
-MG-F-3124302-12300-20181208,Espinosa,MG,2018-12-08,12300,3124302,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3124401-12200-20110106,Espírito Santo do Dourado,MG,2011-01-06,12200,3124401,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3124500-12200-20130215,Estiva,MG,2013-02-25,12200,3124500,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3124906-12200-20101228,Eugenópolis,MG,2010-12-28,12200,3124906,Sudeste,Enxurradas,Hidrológico,1
@@ -350,6 +345,7 @@ MG-A-3126109-12200-20111206,Formiga,MG,2011-12-06,12200,3126109,Sudeste,Enxurrad
 MG-A-3126109-12200-20120102,Formiga,MG,2012-01-02,12200,3126109,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3126208-12200-20140327,Formoso,MG,2014-04-01,12200,3126208,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3126307-12200-20080130,Fortaleza de Minas,MG,2008-01-30,12200,3126307,Sudeste,Enxurradas,Hidrológico,1
+MG-F-3126406-12300-20220109,Fortuna de Minas,MG,2022-01-09,12300,3126406,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3126505-12300-20131226,Francisco Badaró,MG,2013-12-26,12300,3126505,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3126604-12200-20120111,Francisco Dumont,MG,2012-01-11,12200,3126604,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3126703-12300-20120111,Francisco Sá,MG,2012-01-11,12300,3126703,Sudeste,Alagamentos,Hidrológico,1
@@ -453,6 +449,7 @@ MG-A-3131505-12200-20080112,Ipuiúna,MG,2008-01-12,12200,3131505,Sudeste,Enxurra
 MG-A-3131505-12100-20090413,Ipuiúna,MG,2009-04-13,12100,3131505,Sudeste,Inundações,Hidrológico,1
 MG-A-3131505-12200-20100107,Ipuiúna,MG,2010-01-07,12200,3131505,Sudeste,Enxurradas,Hidrológico,1
 MG-P-3131505-12200-20110121,Ipuiúna,MG,2011-01-21,12200,3131505,Sudeste,Enxurradas,Hidrológico,1
+MG-F-3131505-12100-20220331,Ipuiúna,MG,2022-03-31,12100,3131505,Sudeste,Inundações,Hidrológico,1
 MG-A-3131802-12100-20090106,Itabirinha,MG,2009-01-06,12100,3131802,Sudeste,Inundações,Hidrológico,1
 MG-A-3131802-12100-20101230,Itabirinha,MG,2010-12-30,12100,3131802,Sudeste,Inundações,Hidrológico,1
 MG-A-3131802-12100-20120103,Itabirinha,MG,2012-01-03,12100,3131802,Sudeste,Inundações,Hidrológico,1
@@ -466,7 +463,7 @@ MG-A-3132107-12100-20120111,Itacarambi,MG,2012-01-11,12100,3132107,Sudeste,Inund
 MG-A-3132206-12100-20081227,Itaguara,MG,2008-12-27,12100,3132206,Sudeste,Inundações,Hidrológico,1
 MG-A-3132206-12200-20100125,Itaguara,MG,2010-01-25,12200,3132206,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3132206-12200-20120102,Itaguara,MG,2012-01-02,12200,3132206,Sudeste,Enxurradas,Hidrológico,1
-MG-D-3132305-12200-20131218,Itaipé,MG,2013-12-18,12200,3132305,Sudeste,Enxurradas,Hidrológico,1
+MG-F-3132305-12200-20131218,Itaipé,MG,2013-12-18,12200,3132305,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3132305-12200-20160126,Itaipé,MG,2016-01-26,12200,3132305,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3132404-12100-20130110,Itajubá,MG,2013-01-18,12100,3132404,Sudeste,Inundações,Hidrológico,1
 MG-F-3132404-12300-20141117,Itajubá,MG,2014-11-17,12300,3132404,Sudeste,Alagamentos,Hidrológico,1
@@ -491,7 +488,6 @@ MG-F-3133204-12200-20161123,Itanhomi,MG,2016-11-23,12200,3133204,Sudeste,Enxurra
 MG-C-3133303-12300-20090107,Itaobim,MG,2009-01-07,12300,3133303,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3133303-12200-20121102,Itaobim,MG,2012-11-02,12200,3133303,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3133303-12200-20161125,Itaobim,MG,2016-11-25,12200,3133303,Sudeste,Enxurradas,Hidrológico,1
-MG-F-3133303-12100-20200228,Itaobim,MG,2020-02-28,12100,3133303,Sudeste,Inundações,Hidrológico,1
 MG-F-3133303-12100-20211209,Itaobim,MG,2021-12-09,12100,3133303,Sudeste,Inundações,Hidrológico,1
 MG-A-3133501-12100-20081216,Itapecerica,MG,2008-12-16,12100,3133501,Sudeste,Inundações,Hidrológico,1
 MG-A-3133600-12200-20090214,Itapeva,MG,2009-02-14,12200,3133600,Sudeste,Enxurradas,Hidrológico,1
@@ -585,6 +581,7 @@ MG-A-3138609-12200-20100108,Lima Duarte,MG,2010-01-08,12200,3138609,Sudeste,Enxu
 MG-A-3138609-12200-20111227,Lima Duarte,MG,2011-12-27,12200,3138609,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3138609-12100-20151212,Lima Duarte,MG,2016-01-18,12100,3138609,Sudeste,Inundações,Hidrológico,1
 MG-F-3138609-12300-20180321,Lima Duarte,MG,2018-03-21,12300,3138609,Sudeste,Alagamentos,Hidrológico,1
+MG-F-3138609-12300-20221231,Lima Duarte,MG,2022-12-31,12300,3138609,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3138674-12100-20090104,Luisburgo,MG,2009-01-04,12100,3138674,Sudeste,Inundações,Hidrológico,1
 MG-A-3138682-12200-20100102,Luislândia,MG,2010-01-02,12200,3138682,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3138682-12200-20120110,Luislândia,MG,2012-01-10,12200,3138682,Sudeste,Enxurradas,Hidrológico,1
@@ -685,7 +682,6 @@ MG-F-3144508-12100-20200213,Nazareno,MG,2020-02-14,12100,3144508,Sudeste,Inunda�
 MG-F-3144607-12200-20130126,Nepomuceno,MG,2013-02-20,12200,3144607,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3144656-12200-20131227,Ninheira,MG,2013-12-31,12200,3144656,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3144706-12100-20220108,Nova Era,MG,2022-01-08,12100,3144706,Sudeste,Inundações,Hidrológico,1
-MG-F-3144805-12300-20200125,Nova Lima,MG,2020-01-25,12300,3144805,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3145059-12100-20211229,Nova Porteirinha,MG,2021-12-29,12100,3145059,Sudeste,Inundações,Hidrológico,1
 MG-F-3145208-12100-20171112,Nova Serrana,MG,2017-11-12,12100,3145208,Sudeste,Inundações,Hidrológico,1
 MG-A-3145307-12100-20090120,Novo Cruzeiro,MG,2009-01-20,12100,3145307,Sudeste,Inundações,Hidrológico,1
@@ -726,7 +722,6 @@ MG-F-3148103-12300-20220211,Patrocínio,MG,2022-02-11,12300,3148103,Sudeste,Alag
 MG-A-3148202-12200-20090102,Patrocínio do Muriaé,MG,2009-01-02,12200,3148202,Sudeste,Enxurradas,Hidrológico,1
 MG-C-3148202-12100-20101226,Patrocínio do Muriaé,MG,2010-12-26,12100,3148202,Sudeste,Inundações,Hidrológico,1
 MG-P-3148202-12100-20120103,Patrocínio do Muriaé,MG,2012-01-03,12100,3148202,Sudeste,Inundações,Hidrológico,1
-MG-F-3148202-12300-20210104,Patrocínio do Muriaé,MG,2021-01-08,12300,3148202,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3148202-12100-20220109,Patrocínio do Muriaé,MG,2022-01-09,12100,3148202,Sudeste,Inundações,Hidrológico,1
 MG-A-3148301-12100-20120102,Paula Cândido,MG,2012-01-02,12100,3148301,Sudeste,Inundações,Hidrológico,1
 MG-A-3148509-12100-20090107,Pavão,MG,2009-01-07,12100,3148509,Sudeste,Inundações,Hidrológico,1
@@ -762,7 +757,7 @@ MG-N-3150802-12100-20081217,Piranga,MG,2008-12-17,12100,3150802,Sudeste,Inundaç
 MG-A-3150802-12200-20120103,Piranga,MG,2012-01-03,12200,3150802,Sudeste,Enxurradas,Hidrológico,1
 MG-D-3150901-12100-20110107,Piranguçu,MG,2011-01-07,12100,3150901,Sudeste,Inundações,Hidrológico,1
 MG-F-3150901-12100-20130206,Piranguçu,MG,2013-02-21,12100,3150901,Sudeste,Inundações,Hidrológico,1
-MG-D-3151008-12300-20130207,Piranguinho,MG,2013-02-18,12300,3151008,Sudeste,Alagamentos,Hidrológico,1
+MG-F-3151008-12300-20130207,Piranguinho,MG,2013-02-18,12300,3151008,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3151107-12100-20120130,Pirapetinga,MG,2012-01-30,12100,3151107,Sudeste,Inundações,Hidrológico,1
 MG-F-3151107-12100-20220214,Pirapetinga,MG,2022-02-14,12100,3151107,Sudeste,Inundações,Hidrológico,1
 MG-A-3151206-12100-20090402,Pirapora,MG,2009-04-02,12100,3151206,Sudeste,Inundações,Hidrológico,1
@@ -782,12 +777,13 @@ MG-F-3152131-12300-20131217,Ponto Chique,MG,2013-12-19,12300,3152131,Sudeste,Ala
 MG-A-3152303-12100-20081217,Porto Firme,MG,2008-12-17,12100,3152303,Sudeste,Inundações,Hidrológico,1
 MG-A-3152303-12100-20120104,Porto Firme,MG,2012-01-04,12100,3152303,Sudeste,Inundações,Hidrológico,1
 MG-F-3152303-12100-20200211,Porto Firme,MG,2020-02-17,12100,3152303,Sudeste,Inundações,Hidrológico,1
+MG-F-3152303-12300-20220108,Porto Firme,MG,2022-01-08,12300,3152303,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3152501-12100-20090213,Pouso Alegre,MG,2009-02-13,12100,3152501,Sudeste,Inundações,Hidrológico,1
 MG-A-3152501-12100-20110104,Pouso Alegre,MG,2011-01-04,12100,3152501,Sudeste,Inundações,Hidrológico,1
 MG-F-3152501-12200-20130223,Pouso Alegre,MG,2013-02-25,12200,3152501,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3152501-12300-20141231,Pouso Alegre,MG,2015-01-01,12300,3152501,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3152501-12300-20160323,Pouso Alegre,MG,2016-03-23,12300,3152501,Sudeste,Alagamentos,Hidrológico,1
-MG-F-3152501-12200-20201201,Pouso Alegre,MG,2020-12-18,12200,3152501,Sudeste,Enxurradas,Hidrológico,1
+MG-F-3152501-12300-20201214,Pouso Alegre,MG,2020-12-18,12300,3152501,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3152501-12100-20220107,Pouso Alegre,MG,2022-01-07,12100,3152501,Sudeste,Inundações,Hidrológico,1
 MG-F-3152501-12100-20220210,Pouso Alegre,MG,2022-02-10,12100,3152501,Sudeste,Inundações,Hidrológico,1
 MG-A-3152600-12100-20080203,Pouso Alto,MG,2008-02-03,12100,3152600,Sudeste,Inundações,Hidrológico,1
@@ -814,7 +810,6 @@ MG-A-3154150-12200-20090106,Reduto,MG,2009-01-06,12200,3154150,Sudeste,Enxurrada
 MG-P-3154150-12100-20090211,Reduto,MG,2009-02-11,12100,3154150,Sudeste,Inundações,Hidrológico,1
 MG-A-3154150-12100-20091210,Reduto,MG,2009-12-10,12100,3154150,Sudeste,Inundações,Hidrológico,1
 MG-A-3154150-12200-20120112,Reduto,MG,2012-01-12,12200,3154150,Sudeste,Enxurradas,Hidrológico,1
-MG-N-3154150-12200-20121212,Reduto,MG,2012-12-12,12200,3154150,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3154150-12300-20181104,Reduto,MG,2018-11-04,12300,3154150,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3154309-12200-20080107,Resplendor,MG,2008-01-07,12200,3154309,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3154309-12100-20101209,Resplendor,MG,2010-12-09,12100,3154309,Sudeste,Inundações,Hidrológico,1
@@ -849,7 +844,6 @@ MG-D-3155900-12100-20111220,Rio Preto,MG,2011-12-20,12100,3155900,Sudeste,Inunda
 MG-F-3155900-12100-20180311,Rio Preto,MG,2018-03-11,12100,3155900,Sudeste,Inundações,Hidrológico,1
 MG-A-3156304-12100-20120102,Rodeiro,MG,2012-01-02,12100,3156304,Sudeste,Inundações,Hidrológico,1
 MG-A-3156452-12100-20090105,Rosário da Limeira,MG,2009-01-05,12100,3156452,Sudeste,Inundações,Hidrológico,1
-MG-F-3156502-12300-20211212,Rubelita,MG,2021-12-15,12300,3156502,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3156601-12200-20090330,Rubim,MG,2009-03-30,12200,3156601,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3156601-12100-20211208,Rubim,MG,2021-12-08,12100,3156601,Sudeste,Inundações,Hidrológico,1
 MG-F-3156700-12100-20160925,Sabará,MG,2016-09-25,12100,3156700,Sudeste,Inundações,Hidrológico,1
@@ -863,9 +857,6 @@ MG-A-3157005-12200-20081112,Salinas,MG,2008-11-12,12200,3157005,Sudeste,Enxurrad
 MG-A-3157005-12200-20100305,Salinas,MG,2010-03-05,12200,3157005,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3157005-12200-20100406,Salinas,MG,2010-04-06,12200,3157005,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3157005-12100-20200308,Salinas,MG,2020-03-11,12100,3157005,Sudeste,Inundações,Hidrológico,1
-MG-F-3157005-12300-20211216,Salinas,MG,2021-12-16,12300,3157005,Sudeste,Alagamentos,Hidrológico,1
-MG-F-3157005-12100-20211228,Salinas,MG,2021-12-28,12100,3157005,Sudeste,Inundações,Hidrológico,1
-MG-F-3157104-12300-20211128,Salto da Divisa,MG,2021-11-29,12300,3157104,Sudeste,Alagamentos,Hidrológico,1
 MG-D-3157203-12200-20111216,Santa Bárbara,MG,2011-12-16,12200,3157203,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3157302-12100-20160127,Santa Bárbara do Tugúrio,MG,2016-01-27,12100,3157302,Sudeste,Inundações,Hidrológico,1
 MG-F-3157302-12300-20200303,Santa Bárbara do Tugúrio,MG,2020-03-04,12300,3157302,Sudeste,Alagamentos,Hidrológico,1
@@ -889,6 +880,7 @@ MG-F-3157658-12300-20170328,Santa Helena de Minas,MG,2017-03-28,12300,3157658,Su
 MG-F-3157807-12300-20210207,Santa Luzia,MG,2021-02-11,12300,3157807,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3158003-12300-20090106,Santa Maria de Itabira,MG,2009-01-06,12300,3158003,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3158201-12200-20211208,Santa Maria do Suaçuí,MG,2021-12-15,12200,3158201,Sudeste,Enxurradas,Hidrológico,1
+MG-F-3158201-12200-20221220,Santa Maria do Suaçuí,MG,2022-12-20,12200,3158201,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3158409-12200-20090103,Santana de Cataguases,MG,2009-01-03,12200,3158409,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3158508-12100-20120106,Santana de Pirapama,MG,2012-01-06,12100,3158508,Sudeste,Inundações,Hidrológico,1
 MG-F-3158508-12100-20160122,Santana de Pirapama,MG,2016-01-22,12100,3158508,Sudeste,Inundações,Hidrológico,1
@@ -902,6 +894,7 @@ MG-P-3158904-12200-20101123,Santana do Manhuaçu,MG,2010-11-23,12200,3158904,Sud
 MG-F-3158953-12100-20210216,Santana do Paraíso,MG,2021-02-24,12100,3158953,Sudeste,Inundações,Hidrológico,1
 MG-F-3159001-12200-20130206,Santana do Riacho,MG,2013-02-08,12200,3159001,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3159001-12100-20131227,Santana do Riacho,MG,2013-12-30,12100,3159001,Sudeste,Inundações,Hidrológico,1
+MG-F-3159001-12200-20220117,Santana do Riacho,MG,2022-01-17,12200,3159001,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3159100-12200-20101227,Santana dos Montes,MG,2010-12-27,12200,3159100,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3159209-12100-20091107,Santa Rita de Caldas,MG,2009-11-07,12100,3159209,Sudeste,Inundações,Hidrológico,1
 MG-A-3159308-12100-20111218,Santa Rita de Jacutinga,MG,2011-12-18,12100,3159308,Sudeste,Inundações,Hidrológico,1
@@ -936,6 +929,7 @@ MG-F-3161650-12100-20131218,São Geraldo do Baixio,MG,2013-12-27,12100,3161650,S
 MG-A-3161700-12300-20110321,São Gonçalo do Abaeté,MG,2011-03-21,12300,3161700,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3161700-12300-20120317,São Gonçalo do Abaeté,MG,2012-03-17,12300,3161700,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3161700-12100-20220109,São Gonçalo do Abaeté,MG,2022-01-09,12100,3161700,Sudeste,Inundações,Hidrológico,1
+MG-F-3161700-12100-20221116,São Gonçalo do Abaeté,MG,2022-11-16,12100,3161700,Sudeste,Inundações,Hidrológico,1
 MG-F-3161908-12300-20220107,São Gonçalo do Rio Abaixo,MG,2022-01-07,12300,3161908,Sudeste,Alagamentos,Hidrológico,1
 MG-P-3162104-12200-20120208,São Gotardo,MG,2012-02-08,12200,3162104,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3162104-12200-20220102,São Gotardo,MG,2022-01-02,12200,3162104,Sudeste,Enxurradas,Hidrológico,1
@@ -943,11 +937,11 @@ MG-F-3162104-12100-20220106,São Gotardo,MG,2022-01-06,12100,3162104,Sudeste,Inu
 MG-F-3162252-12300-20160122,São João da Lagoa,MG,2016-01-22,12300,3162252,Sudeste,Alagamentos,Hidrológico,1
 MG-P-3162302-12200-20111202,São João da Mata,MG,2011-12-02,12200,3162302,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3162401-12200-20090105,São João da Ponte,MG,2009-01-05,12200,3162401,Sudeste,Enxurradas,Hidrológico,1
-MG-F-3162401-12200-20211228,São João da Ponte,MG,2021-12-29,12200,3162401,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3162500-12100-20120109,São João del Rei,MG,2012-01-09,12100,3162500,Sudeste,Inundações,Hidrológico,1
 MG-F-3162500-12100-20131130,São João del Rei,MG,2013-12-04,12100,3162500,Sudeste,Inundações,Hidrológico,1
 MG-A-3162575-12100-20110312,São João do Manteninha,MG,2011-03-12,12100,3162575,Sudeste,Inundações,Hidrológico,1
 MG-A-3162609-12200-20111218,São João do Oriente,MG,2011-12-18,12200,3162609,Sudeste,Enxurradas,Hidrológico,1
+MG-F-3162609-12300-20220109,São João do Oriente,MG,2022-01-09,12300,3162609,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3162658-12100-20110125,São João do Pacuí,MG,2011-01-25,12100,3162658,Sudeste,Inundações,Hidrológico,1
 MG-F-3162658-12300-20210310,São João do Pacuí,MG,2021-03-15,12300,3162658,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3162708-12200-20090115,São João do Paraíso,MG,2009-01-15,12200,3162708,Sudeste,Enxurradas,Hidrológico,1
@@ -988,6 +982,7 @@ MG-A-3165701-12200-20080201,Senador Firmino,MG,2008-02-01,12200,3165701,Sudeste,
 MG-A-3165701-12100-20081216,Senador Firmino,MG,2008-12-16,12100,3165701,Sudeste,Inundações,Hidrológico,1
 MG-P-3165701-12100-20120102,Senador Firmino,MG,2012-01-02,12100,3165701,Sudeste,Inundações,Hidrológico,1
 MG-A-3165909-12100-20111229,Senador Modestino Gonçalves,MG,2011-12-29,12100,3165909,Sudeste,Inundações,Hidrológico,1
+MG-F-3166204-12300-20220213,Senhora dos Remédios,MG,2022-02-13,12300,3166204,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3166204-12100-20221129,Senhora dos Remédios,MG,2022-11-29,12100,3166204,Sudeste,Inundações,Hidrológico,1
 MG-A-3166402-12200-20110112,Seritinga,MG,2011-01-12,12200,3166402,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3166709-12300-20221217,Serra dos Aimorés,MG,2022-12-17,12300,3166709,Sudeste,Alagamentos,Hidrológico,1
@@ -1009,6 +1004,7 @@ MG-N-3168051-12200-20091206,Taparuba,MG,2009-12-06,12200,3168051,Sudeste,Enxurra
 MG-F-3168051-12200-20131224,Taparuba,MG,2013-12-24,12200,3168051,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3168101-12300-20150209,Tapira,MG,2015-02-19,12300,3168101,Sudeste,Alagamentos,Hidrológico,1
 MG-D-3168200-12100-20110106,Tapiraí,MG,2011-01-06,12100,3168200,Sudeste,Inundações,Hidrológico,1
+MG-F-3168200-12300-20220107,Tapiraí,MG,2022-01-07,12300,3168200,Sudeste,Alagamentos,Hidrológico,1
 MG-A-3168408-12200-20111229,Tarumirim,MG,2011-12-29,12200,3168408,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3168408-12100-20191202,Tarumirim,MG,2019-12-02,12100,3168408,Sudeste,Inundações,Hidrológico,1
 MG-F-3168507-12300-20220110,Teixeiras,MG,2022-01-10,12300,3168507,Sudeste,Alagamentos,Hidrológico,1
@@ -1052,6 +1048,7 @@ MG-F-3170305-12200-20200305,Umburatiba,MG,2020-03-13,12200,3170305,Sudeste,Enxur
 MG-C-3170438-12200-20120102,União de Minas,MG,2012-01-02,12200,3170438,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3170438-12200-20220113,União de Minas,MG,2022-01-13,12200,3170438,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3170479-12300-20211229,Uruana de Minas,MG,2021-12-29,12300,3170479,Sudeste,Alagamentos,Hidrológico,1
+MG-F-3170479-12300-20211230,Uruana de Minas,MG,2021-12-30,12300,3170479,Sudeste,Alagamentos,Hidrológico,1
 MG-F-3170503-12100-20171204,Urucânia,MG,2017-12-04,12100,3170503,Sudeste,Inundações,Hidrológico,1
 MG-A-3170578-12100-20101226,Vargem Alegre,MG,2010-12-26,12100,3170578,Sudeste,Inundações,Hidrológico,1
 MG-F-3170578-12300-20131108,Vargem Alegre,MG,2013-11-20,12300,3170578,Sudeste,Alagamentos,Hidrológico,1
@@ -1071,12 +1068,12 @@ MG-A-3171402-12100-20090416,Vieiras,MG,2009-04-16,12100,3171402,Sudeste,Inundaç
 MG-D-3171501-12200-20090219,Mathias Lobato,MG,2009-02-19,12200,3171501,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3171501-12100-20101207,Mathias Lobato,MG,2010-12-07,12100,3171501,Sudeste,Inundações,Hidrológico,1
 MG-A-3171501-12100-20111017,Mathias Lobato,MG,2011-10-17,12100,3171501,Sudeste,Inundações,Hidrológico,1
-MG-F-3171501-12200-20121125,Mathias Lobato,MG,2013-05-07,12200,3171501,Sudeste,Enxurradas,Hidrológico,1
+MG-C-3171501-12200-20121125,Mathias Lobato,MG,2013-05-07,12200,3171501,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3171501-12200-20131217,Mathias Lobato,MG,2013-12-18,12200,3171501,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3171501-12200-20221228,Mathias Lobato,MG,2022-12-28,12200,3171501,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3171709-12200-20100306,Virgínia,MG,2010-03-06,12200,3171709,Sudeste,Enxurradas,Hidrológico,1
 MG-F-3171709-12200-20130324,Virgínia,MG,2013-04-04,12200,3171709,Sudeste,Enxurradas,Hidrológico,1
-MG-F-3171709-12200-20211219,Virgínia,MG,2021-12-23,12200,3171709,Sudeste,Enxurradas,Hidrológico,1
+MG-F-3171709-12200-20220216,Virgínia,MG,2022-02-16,12200,3171709,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3171808-12200-20110316,Virginópolis,MG,2011-03-16,12200,3171808,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3172004-12200-20081216,Visconde do Rio Branco,MG,2008-12-16,12200,3172004,Sudeste,Enxurradas,Hidrológico,1
 MG-A-3172004-12200-20101125,Visconde do Rio Branco,MG,2010-11-25,12200,3172004,Sudeste,Enxurradas,Hidrológico,1
@@ -1108,7 +1105,6 @@ ES-N-3200300-12200-20100305,Alfredo Chaves,ES,2010-03-05,12200,3200300,Sudeste,E
 ES-J-3200300-12100-20120109,Alfredo Chaves,ES,2012-01-09,12100,3200300,Sudeste,Inundações,Hidrológico,1
 ES-F-3200300-12200-20180317,Alfredo Chaves,ES,2018-03-17,12200,3200300,Sudeste,Enxurradas,Hidrológico,1
 ES-F-3200300-12200-20180416,Alfredo Chaves,ES,2018-04-16,12200,3200300,Sudeste,Enxurradas,Hidrológico,1
-ES-F-3200300-12100-20180509,Alfredo Chaves,ES,2018-05-09,12100,3200300,Sudeste,Inundações,Hidrológico,1
 ES-F-3200300-12300-20181108,Alfredo Chaves,ES,2018-11-08,12300,3200300,Sudeste,Alagamentos,Hidrológico,1
 ES-F-3200300-12100-20191113,Alfredo Chaves,ES,2019-11-13,12100,3200300,Sudeste,Inundações,Hidrológico,1
 ES-F-3200300-12100-20200117,Alfredo Chaves,ES,2020-01-21,12100,3200300,Sudeste,Inundações,Hidrológico,1
@@ -1159,7 +1155,6 @@ ES-F-3200805-12100-20220112,Baixo Guandu,ES,2022-01-12,12100,3200805,Sudeste,Inu
 ES-A-3200904-12200-20090107,Barra de São Francisco,ES,2009-01-07,12200,3200904,Sudeste,Enxurradas,Hidrológico,1
 ES-A-3200904-12200-20091102,Barra de São Francisco,ES,2009-11-02,12200,3200904,Sudeste,Enxurradas,Hidrológico,1
 ES-P-3200904-12200-20101231,Barra de São Francisco,ES,2010-12-31,12200,3200904,Sudeste,Enxurradas,Hidrológico,1
-ES-O-3200904-12200-20111202,Barra de São Francisco,ES,2011-12-02,12200,3200904,Sudeste,Enxurradas,Hidrológico,1
 ES-F-3200904-12100-20131217,Barra de São Francisco,ES,2013-12-23,12100,3200904,Sudeste,Inundações,Hidrológico,1
 ES-F-3200904-12200-20190410,Barra de São Francisco,ES,2019-04-10,12200,3200904,Sudeste,Enxurradas,Hidrológico,1
 ES-F-3200904-12300-20210120,Barra de São Francisco,ES,2021-02-22,12300,3200904,Sudeste,Alagamentos,Hidrológico,1
@@ -1178,7 +1173,6 @@ ES-A-3201159-12200-20091204,Brejetuba,ES,2009-12-04,12200,3201159,Sudeste,Enxurr
 ES-D-3201159-12100-20100303,Brejetuba,ES,2010-03-03,12100,3201159,Sudeste,Inundações,Hidrológico,1
 ES-P-3201159-12200-20131223,Brejetuba,ES,2014-01-07,12200,3201159,Sudeste,Enxurradas,Hidrológico,1
 ES-N-3201209-12200-20081127,Cachoeiro de Itapemirim,ES,2008-11-27,12200,3201209,Sudeste,Enxurradas,Hidrológico,1
-ES-A-3201209-12200-20090122,Cachoeiro de Itapemirim,ES,2009-01-22,12200,3201209,Sudeste,Enxurradas,Hidrológico,1
 ES-A-3201209-12200-20090428,Cachoeiro de Itapemirim,ES,2009-04-28,12200,3201209,Sudeste,Enxurradas,Hidrológico,1
 ES-N-3201209-12100-20091206,Cachoeiro de Itapemirim,ES,2009-12-06,12100,3201209,Sudeste,Inundações,Hidrológico,1
 ES-P-3201209-12200-20101230,Cachoeiro de Itapemirim,ES,2010-12-30,12200,3201209,Sudeste,Enxurradas,Hidrológico,1
@@ -1241,7 +1235,6 @@ ES-F-3202207-12200-20141030,Fundão,ES,2014-11-03,12200,3202207,Sudeste,Enxurrad
 ES-F-3202207-12200-20140817,Fundão,ES,2014-11-25,12200,3202207,Sudeste,Enxurradas,Hidrológico,1
 ES-F-3202207-12200-20160125,Fundão,ES,2016-01-25,12200,3202207,Sudeste,Enxurradas,Hidrológico,1
 ES-F-3202207-12200-20161116,Fundão,ES,2016-11-16,12200,3202207,Sudeste,Enxurradas,Hidrológico,1
-ES-F-3202207-12100-20191114,Fundão,ES,2019-11-14,12100,3202207,Sudeste,Inundações,Hidrológico,1
 ES-F-3202207-12300-20200301,Fundão,ES,2020-03-12,12300,3202207,Sudeste,Alagamentos,Hidrológico,1
 ES-F-3202207-12300-20210220,Fundão,ES,2021-02-24,12300,3202207,Sudeste,Alagamentos,Hidrológico,1
 ES-F-3202207-12300-20210227,Fundão,ES,2021-03-01,12300,3202207,Sudeste,Alagamentos,Hidrológico,1
@@ -1306,7 +1299,6 @@ ES-F-3203007-12200-20131225,Iúna,ES,2013-12-25,12200,3203007,Sudeste,Enxurradas
 ES-F-3203056-12200-20140214,Jaguaré,ES,2014-02-17,12200,3203056,Sudeste,Enxurradas,Hidrológico,1
 ES-A-3203106-12200-20081218,Jerônimo Monteiro,ES,2008-12-18,12200,3203106,Sudeste,Enxurradas,Hidrológico,1
 ES-D-3203106-12100-20090312,Jerônimo Monteiro,ES,2009-03-12,12100,3203106,Sudeste,Inundações,Hidrológico,1
-ES-P-3203106-12200-20101230,Jerônimo Monteiro,ES,2010-12-30,12200,3203106,Sudeste,Enxurradas,Hidrológico,1
 ES-P-3203106-12200-20110318,Jerônimo Monteiro,ES,2011-03-18,12200,3203106,Sudeste,Enxurradas,Hidrológico,1
 ES-P-3203106-12200-20131223,Jerônimo Monteiro,ES,2013-12-23,12200,3203106,Sudeste,Enxurradas,Hidrológico,1
 ES-F-3203106-12100-20200125,Jerônimo Monteiro,ES,2020-02-03,12100,3203106,Sudeste,Inundações,Hidrológico,1
@@ -1472,7 +1464,7 @@ ES-J-3205002-12200-20100305,Serra,ES,2010-03-05,12200,3205002,Sudeste,Enxurradas
 ES-A-3205002-12200-20120105,Serra,ES,2012-01-05,12200,3205002,Sudeste,Enxurradas,Hidrológico,1
 ES-F-3205002-12200-20131221,Serra,ES,2013-12-21,12200,3205002,Sudeste,Enxurradas,Hidrológico,1
 ES-F-3205002-12200-20141030,Serra,ES,2014-11-06,12200,3205002,Sudeste,Enxurradas,Hidrológico,1
-ES-P-3205010-12200-20131223,Sooretama,ES,2014-01-07,12200,3205010,Sudeste,Enxurradas,Hidrológico,1
+ES-F-3205010-12200-20131223,Sooretama,ES,2014-01-07,12200,3205010,Sudeste,Enxurradas,Hidrológico,1
 ES-F-3205010-12100-20191023,Sooretama,ES,2019-10-23,12100,3205010,Sudeste,Inundações,Hidrológico,1
 ES-F-3205010-12300-20191123,Sooretama,ES,2019-11-23,12300,3205010,Sudeste,Alagamentos,Hidrológico,1
 ES-F-3205010-12300-20200121,Sooretama,ES,2020-01-27,12300,3205010,Sudeste,Alagamentos,Hidrológico,1
@@ -1585,7 +1577,7 @@ RJ-F-3300605-12100-20210104,Bom Jesus do Itabapoana,RJ,2021-01-05,12100,3300605,
 RJ-F-3300605-12200-20211223,Bom Jesus do Itabapoana,RJ,2021-12-24,12200,3300605,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3300605-12100-20211229,Bom Jesus do Itabapoana,RJ,2021-12-29,12100,3300605,Sudeste,Inundações,Hidrológico,1
 RJ-C-3300803-12200-20090122,Cachoeiras de Macacu,RJ,2009-01-22,12200,3300803,Sudeste,Enxurradas,Hidrológico,1
-RJ-P-3300803-12200-20100412,Cachoeiras de Macacu,RJ,2010-04-12,12200,3300803,Sudeste,Enxurradas,Hidrológico,1
+RJ-A-3300803-12200-20100412,Cachoeiras de Macacu,RJ,2010-04-12,12200,3300803,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3300803-12100-20160228,Cachoeiras de Macacu,RJ,2016-02-28,12100,3300803,Sudeste,Inundações,Hidrológico,1
 RJ-A-3300902-12100-20081218,Cambuci,RJ,2008-12-18,12100,3300902,Sudeste,Inundações,Hidrológico,1
 RJ-P-3300902-12100-20090102,Cambuci,RJ,2009-01-02,12100,3300902,Sudeste,Inundações,Hidrológico,1
@@ -1633,15 +1625,17 @@ RJ-F-3301157-12200-20220213,Cardoso Moreira,RJ,2022-02-13,12200,3301157,Sudeste,
 RJ-P-3301207-12200-20101126,Carmo,RJ,2010-11-26,12200,3301207,Sudeste,Enxurradas,Hidrológico,1
 RJ-C-3301207-12100-20110211,Carmo,RJ,2011-02-11,12100,3301207,Sudeste,Inundações,Hidrológico,1
 RJ-F-3301207-12100-20160116,Carmo,RJ,2016-01-16,12100,3301207,Sudeste,Inundações,Hidrológico,1
+RJ-F-3301207-12100-20220112,Carmo,RJ,2022-01-12,12100,3301207,Sudeste,Inundações,Hidrológico,1
+RJ-F-3301207-12300-20220212,Carmo,RJ,2022-02-12,12300,3301207,Sudeste,Alagamentos,Hidrológico,1
 RJ-C-3301306-12100-20081119,Casimiro de Abreu,RJ,2008-11-19,12100,3301306,Sudeste,Inundações,Hidrológico,1
 RJ-C-3301306-12100-20090122,Casimiro de Abreu,RJ,2009-01-22,12100,3301306,Sudeste,Inundações,Hidrológico,1
 RJ-A-3301306-12100-20090212,Casimiro de Abreu,RJ,2009-02-12,12100,3301306,Sudeste,Inundações,Hidrológico,1
 RJ-C-3301306-12100-20091204,Casimiro de Abreu,RJ,2009-12-04,12100,3301306,Sudeste,Inundações,Hidrológico,1
 RJ-F-3301306-12100-20181108,Casimiro de Abreu,RJ,2018-11-08,12100,3301306,Sudeste,Inundações,Hidrológico,1
 RJ-J-3301504-12100-20110211,Cordeiro,RJ,2011-02-11,12100,3301504,Sudeste,Inundações,Hidrológico,1
-RJ-P-3301702-12100-20091112,Duque de Caxias,RJ,2009-11-12,12100,3301702,Sudeste,Inundações,Hidrológico,1
+RJ-A-3301702-12100-20091112,Duque de Caxias,RJ,2009-11-12,12100,3301702,Sudeste,Inundações,Hidrológico,1
 RJ-A-3301702-12100-20091231,Duque de Caxias,RJ,2009-12-31,12100,3301702,Sudeste,Inundações,Hidrológico,1
-RJ-P-3301702-12100-20100406,Duque de Caxias,RJ,2010-04-06,12100,3301702,Sudeste,Inundações,Hidrológico,1
+RJ-A-3301702-12100-20100406,Duque de Caxias,RJ,2010-04-06,12100,3301702,Sudeste,Inundações,Hidrológico,1
 RJ-F-3301702-12200-20130103,Duque de Caxias,RJ,2013-03-25,12200,3301702,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3301702-12300-20130905,Duque de Caxias,RJ,2013-10-29,12300,3301702,Sudeste,Alagamentos,Hidrológico,1
 RJ-F-3301702-12100-20131211,Duque de Caxias,RJ,2013-12-23,12100,3301702,Sudeste,Inundações,Hidrológico,1
@@ -1746,20 +1740,20 @@ RJ-C-3303609-12200-20081113,Paracambi,RJ,2008-11-13,12200,3303609,Sudeste,Enxurr
 RJ-F-3303609-12100-20130102,Paracambi,RJ,2013-01-07,12100,3303609,Sudeste,Inundações,Hidrológico,1
 RJ-J-3303708-12200-20081219,Paraíba do Sul,RJ,2008-12-19,12200,3303708,Sudeste,Enxurradas,Hidrológico,1
 RJ-A-3303708-12100-20090212,Paraíba do Sul,RJ,2009-02-12,12100,3303708,Sudeste,Inundações,Hidrológico,1
-RJ-P-3303708-12100-20091231,Paraíba do Sul,RJ,2009-12-31,12100,3303708,Sudeste,Inundações,Hidrológico,1
+RJ-A-3303708-12100-20091231,Paraíba do Sul,RJ,2009-12-31,12100,3303708,Sudeste,Inundações,Hidrológico,1
 RJ-P-3303708-12300-20100101,Paraíba do Sul,RJ,2010-01-01,12300,3303708,Sudeste,Alagamentos,Hidrológico,1
-RJ-P-3303708-12100-20100125,Paraíba do Sul,RJ,2010-01-25,12100,3303708,Sudeste,Inundações,Hidrológico,1
-RJ-P-3303708-12100-20100307,Paraíba do Sul,RJ,2010-03-07,12100,3303708,Sudeste,Inundações,Hidrológico,1
+RJ-A-3303708-12100-20100125,Paraíba do Sul,RJ,2010-01-25,12100,3303708,Sudeste,Inundações,Hidrológico,1
+RJ-A-3303708-12100-20100307,Paraíba do Sul,RJ,2010-03-07,12100,3303708,Sudeste,Inundações,Hidrológico,1
 RJ-A-3303708-12200-20101208,Paraíba do Sul,RJ,2010-12-08,12200,3303708,Sudeste,Enxurradas,Hidrológico,1
 RJ-C-3303708-12200-20110210,Paraíba do Sul,RJ,2011-02-10,12200,3303708,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3303708-12200-20160116,Paraíba do Sul,RJ,2016-01-16,12200,3303708,Sudeste,Enxurradas,Hidrológico,1
 RJ-A-3303807-12200-20090110,Paraty,RJ,2009-01-10,12200,3303807,Sudeste,Enxurradas,Hidrológico,1
 RJ-C-3303807-12200-20090224,Paraty,RJ,2009-02-24,12200,3303807,Sudeste,Enxurradas,Hidrológico,1
-RJ-P-3303807-12200-20100101,Paraty,RJ,2010-01-01,12200,3303807,Sudeste,Enxurradas,Hidrológico,1
+RJ-A-3303807-12200-20100101,Paraty,RJ,2010-01-01,12200,3303807,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3303807-12100-20220402,Paraty,RJ,2022-04-02,12100,3303807,Sudeste,Inundações,Hidrológico,1
 RJ-F-3303807-12200-20220430,Paraty,RJ,2022-04-30,12200,3303807,Sudeste,Enxurradas,Hidrológico,1
 RJ-J-3303856-12100-20091231,Paty do Alferes,RJ,2009-12-31,12100,3303856,Sudeste,Inundações,Hidrológico,1
-RJ-P-3303856-12200-20100210,Paty do Alferes,RJ,2010-02-10,12200,3303856,Sudeste,Enxurradas,Hidrológico,1
+RJ-A-3303856-12200-20100210,Paty do Alferes,RJ,2010-02-10,12200,3303856,Sudeste,Enxurradas,Hidrológico,1
 RJ-J-3303856-12100-20120102,Paty do Alferes,RJ,2012-01-02,12100,3303856,Sudeste,Inundações,Hidrológico,1
 RJ-F-3303856-12200-20160116,Paty do Alferes,RJ,2016-01-16,12200,3303856,Sudeste,Enxurradas,Hidrológico,1
 RJ-A-3303906-12200-20080203,Petrópolis,RJ,2008-02-03,12200,3303906,Sudeste,Enxurradas,Hidrológico,1
@@ -1773,6 +1767,7 @@ RJ-F-3303906-12200-20180303,Petrópolis,RJ,2018-03-03,12200,3303906,Sudeste,Enxu
 RJ-D-3303955-12100-20101222,Pinheiral,RJ,2010-12-22,12100,3303955,Sudeste,Inundações,Hidrológico,1
 RJ-C-3304003-12200-20090121,Piraí,RJ,2009-01-21,12200,3304003,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3304003-12200-20130207,Piraí,RJ,2013-02-19,12200,3304003,Sudeste,Enxurradas,Hidrológico,1
+RJ-F-3304003-12300-20220430,Piraí,RJ,2022-04-30,12300,3304003,Sudeste,Alagamentos,Hidrológico,1
 RJ-A-3304102-12100-20081218,Porciúncula,RJ,2008-12-18,12100,3304102,Sudeste,Inundações,Hidrológico,1
 RJ-J-3304102-12100-20090105,Porciúncula,RJ,2009-01-05,12100,3304102,Sudeste,Inundações,Hidrológico,1
 RJ-J-3304102-12100-20110309,Porciúncula,RJ,2011-03-09,12100,3304102,Sudeste,Inundações,Hidrológico,1
@@ -1781,28 +1776,27 @@ RJ-F-3304102-12300-20191219,Porciúncula,RJ,2019-12-19,12300,3304102,Sudeste,Ala
 RJ-F-3304102-12200-20191223,Porciúncula,RJ,2019-12-23,12200,3304102,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3304102-12300-20200213,Porciúncula,RJ,2020-02-14,12300,3304102,Sudeste,Alagamentos,Hidrológico,1
 RJ-P-3304110-12200-20110119,Porto Real,RJ,2011-01-19,12200,3304110,Sudeste,Enxurradas,Hidrológico,1
-RJ-P-3304128-12200-20091112,Quatis,RJ,2009-11-12,12200,3304128,Sudeste,Enxurradas,Hidrológico,1
+RJ-A-3304128-12200-20091112,Quatis,RJ,2009-11-12,12200,3304128,Sudeste,Enxurradas,Hidrológico,1
 RJ-A-3304128-12200-20101206,Quatis,RJ,2010-12-06,12200,3304128,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3304128-12100-20130116,Quatis,RJ,2013-01-24,12100,3304128,Sudeste,Inundações,Hidrológico,1
-RJ-P-3304144-12300-20100405,Queimados,RJ,2010-04-05,12300,3304144,Sudeste,Alagamentos,Hidrológico,1
+RJ-A-3304144-12300-20100405,Queimados,RJ,2010-04-05,12300,3304144,Sudeste,Alagamentos,Hidrológico,1
 RJ-J-3304144-12200-20101205,Queimados,RJ,2010-12-05,12200,3304144,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3304144-12100-20131205,Queimados,RJ,2013-12-10,12100,3304144,Sudeste,Inundações,Hidrológico,1
 RJ-A-3304151-12200-20080129,Quissamã,RJ,2008-01-29,12200,3304151,Sudeste,Enxurradas,Hidrológico,1
-RJ-P-3304201-12200-20100316,Resende,RJ,2010-03-16,12200,3304201,Sudeste,Enxurradas,Hidrológico,1
+RJ-A-3304201-12200-20100316,Resende,RJ,2010-03-16,12200,3304201,Sudeste,Enxurradas,Hidrológico,1
 RJ-P-3304201-12200-20101214,Resende,RJ,2010-12-14,12200,3304201,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3304201-12300-20130110,Resende,RJ,2013-01-15,12300,3304201,Sudeste,Alagamentos,Hidrológico,1
 RJ-A-3304300-12200-20081125,Rio Bonito,RJ,2008-11-25,12200,3304300,Sudeste,Enxurradas,Hidrológico,1
 RJ-C-3304300-12200-20090121,Rio Bonito,RJ,2009-01-21,12200,3304300,Sudeste,Enxurradas,Hidrológico,1
 RJ-J-3304300-12200-20091111,Rio Bonito,RJ,2009-11-11,12200,3304300,Sudeste,Enxurradas,Hidrológico,1
-RJ-P-3304300-12200-20100405,Rio Bonito,RJ,2010-04-05,12200,3304300,Sudeste,Enxurradas,Hidrológico,1
+RJ-A-3304300-12200-20100405,Rio Bonito,RJ,2010-04-05,12200,3304300,Sudeste,Enxurradas,Hidrológico,1
 RJ-A-3304300-12200-20101213,Rio Bonito,RJ,2010-12-13,12200,3304300,Sudeste,Enxurradas,Hidrológico,1
-RJ-P-3304409-12200-20100405,Rio Claro,RJ,2010-04-05,12200,3304409,Sudeste,Enxurradas,Hidrológico,1
+RJ-A-3304409-12200-20100405,Rio Claro,RJ,2010-04-05,12200,3304409,Sudeste,Enxurradas,Hidrológico,1
 RJ-P-3304409-12200-20110106,Rio Claro,RJ,2011-01-06,12200,3304409,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3304409-12200-20130314,Rio Claro,RJ,2013-04-02,12200,3304409,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3304409-12300-20200205,Rio Claro,RJ,2020-02-12,12300,3304409,Sudeste,Alagamentos,Hidrológico,1
 RJ-F-3304508-12200-20150105,Rio das Flores,RJ,2015-01-14,12200,3304508,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3304524-12100-20131125,Rio das Ostras,RJ,2013-12-02,12100,3304524,Sudeste,Inundações,Hidrológico,1
-RJ-F-3304524-12300-20181108,Rio das Ostras,RJ,2018-11-08,12300,3304524,Sudeste,Alagamentos,Hidrológico,1
 RJ-F-3304557-12300-20141201,Rio de Janeiro,RJ,2014-12-09,12300,3304557,Sudeste,Alagamentos,Hidrológico,1
 RJ-C-3304607-12200-20090122,Santa Maria Madalena,RJ,2009-01-22,12200,3304607,Sudeste,Enxurradas,Hidrológico,1
 RJ-P-3304607-12200-20110111,Santa Maria Madalena,RJ,2011-01-11,12200,3304607,Sudeste,Enxurradas,Hidrológico,1
@@ -1833,14 +1827,12 @@ RJ-N-3304805-12100-20120103,São Fidélis,RJ,2012-01-03,12100,3304805,Sudeste,In
 RJ-J-3304904-12100-20091019,São Gonçalo,RJ,2009-10-19,12100,3304904,Sudeste,Inundações,Hidrológico,1
 RJ-P-3304904-12200-20091218,São Gonçalo,RJ,2009-12-18,12200,3304904,Sudeste,Enxurradas,Hidrológico,1
 RJ-C-3304904-12100-20100329,São Gonçalo,RJ,2010-03-29,12100,3304904,Sudeste,Inundações,Hidrológico,1
-RJ-C-3304904-12200-20100405,São Gonçalo,RJ,2010-04-05,12200,3304904,Sudeste,Enxurradas,Hidrológico,1
-RJ-C-3304904-12200-20101111,São Gonçalo,RJ,2010-11-11,12200,3304904,Sudeste,Enxurradas,Hidrológico,1
 RJ-C-3304904-12200-20101116,São Gonçalo,RJ,2010-11-16,12200,3304904,Sudeste,Enxurradas,Hidrológico,1
 RJ-A-3305000-12300-20081219,São João da Barra,RJ,2008-12-19,12300,3305000,Sudeste,Alagamentos,Hidrológico,1
 RJ-J-3305000-12100-20120104,São João da Barra,RJ,2012-01-04,12100,3305000,Sudeste,Inundações,Hidrológico,1
 RJ-J-3305109-12300-20100125,São João de Meriti,RJ,2010-01-25,12300,3305109,Sudeste,Alagamentos,Hidrológico,1
 RJ-F-3305109-12100-20131211,São João de Meriti,RJ,2013-12-18,12100,3305109,Sudeste,Inundações,Hidrológico,1
-RJ-A-3305158-12200-20110112,São José do Vale do Rio Preto,RJ,2011-01-12,12200,3305158,Sudeste,Enxurradas,Hidrológico,1
+RJ-P-3305158-12200-20110112,São José do Vale do Rio Preto,RJ,2011-01-12,12200,3305158,Sudeste,Enxurradas,Hidrológico,1
 RJ-J-3305208-12200-20100307,São Pedro da Aldeia,RJ,2010-03-07,12200,3305208,Sudeste,Enxurradas,Hidrológico,1
 RJ-J-3305208-12100-20100406,São Pedro da Aldeia,RJ,2010-04-06,12100,3305208,Sudeste,Inundações,Hidrológico,1
 RJ-J-3305208-12200-20100718,São Pedro da Aldeia,RJ,2010-07-18,12200,3305208,Sudeste,Enxurradas,Hidrológico,1
@@ -1851,7 +1843,7 @@ RJ-C-3305406-12200-20101208,Sapucaia,RJ,2010-12-08,12200,3305406,Sudeste,Enxurra
 RJ-P-3305406-12200-20110110,Sapucaia,RJ,2011-01-10,12200,3305406,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3305406-12100-20160116,Sapucaia,RJ,2016-01-16,12100,3305406,Sudeste,Inundações,Hidrológico,1
 RJ-F-3305406-12200-20190220,Sapucaia,RJ,2019-02-20,12200,3305406,Sudeste,Enxurradas,Hidrológico,1
-RJ-P-3305505-12300-20100409,Saquarema,RJ,2010-04-09,12300,3305505,Sudeste,Alagamentos,Hidrológico,1
+RJ-A-3305505-12300-20100409,Saquarema,RJ,2010-04-09,12300,3305505,Sudeste,Alagamentos,Hidrológico,1
 RJ-F-3305505-12300-20160229,Saquarema,RJ,2016-02-29,12300,3305505,Sudeste,Alagamentos,Hidrológico,1
 RJ-F-3305505-12100-20220401,Saquarema,RJ,2022-04-01,12100,3305505,Sudeste,Inundações,Hidrológico,1
 RJ-C-3305554-12100-20080120,Seropédica,RJ,2008-01-20,12100,3305554,Sudeste,Inundações,Hidrológico,1
@@ -1881,7 +1873,7 @@ RJ-J-3305703-12200-20120109,Sumidouro,RJ,2012-01-09,12200,3305703,Sudeste,Enxurr
 RJ-F-3305703-12100-20180311,Sumidouro,RJ,2018-03-11,12100,3305703,Sudeste,Inundações,Hidrológico,1
 RJ-C-3305752-12100-20090121,Tanguá,RJ,2009-01-21,12100,3305752,Sudeste,Inundações,Hidrológico,1
 RJ-C-3305752-12200-20091111,Tanguá,RJ,2009-11-11,12200,3305752,Sudeste,Enxurradas,Hidrológico,1
-RJ-P-3305752-12100-20100412,Tanguá,RJ,2010-04-12,12100,3305752,Sudeste,Inundações,Hidrológico,1
+RJ-A-3305752-12100-20100412,Tanguá,RJ,2010-04-12,12100,3305752,Sudeste,Inundações,Hidrológico,1
 RJ-F-3305752-12200-20160301,Tanguá,RJ,2016-03-01,12200,3305752,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3305752-12200-20161113,Tanguá,RJ,2016-11-13,12200,3305752,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3305752-12300-20180321,Tanguá,RJ,2018-03-21,12300,3305752,Sudeste,Alagamentos,Hidrológico,1
@@ -1889,13 +1881,13 @@ RJ-J-3305802-12100-20100225,Teresópolis,RJ,2010-02-25,12100,3305802,Sudeste,Inu
 RJ-J-3305802-12100-20101227,Teresópolis,RJ,2010-12-27,12100,3305802,Sudeste,Inundações,Hidrológico,1
 RJ-P-3305802-12200-20110112,Teresópolis,RJ,2011-01-12,12200,3305802,Sudeste,Enxurradas,Hidrológico,1
 RJ-A-3305802-12200-20120406,Teresópolis,RJ,2012-04-06,12200,3305802,Sudeste,Enxurradas,Hidrológico,1
-RJ-P-3305901-12200-20091209,Trajano de Moraes,RJ,2009-12-09,12200,3305901,Sudeste,Enxurradas,Hidrológico,1
+RJ-A-3305901-12200-20091209,Trajano de Moraes,RJ,2009-12-09,12200,3305901,Sudeste,Enxurradas,Hidrológico,1
 RJ-N-3305901-12200-20110112,Trajano de Moraes,RJ,2011-01-12,12200,3305901,Sudeste,Enxurradas,Hidrológico,1
 RJ-P-3305901-12200-20121113,Trajano de Moraes,RJ,2012-11-13,12200,3305901,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3305901-12200-20180216,Trajano de Moraes,RJ,2018-02-16,12200,3305901,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3305901-12100-20181108,Trajano de Moraes,RJ,2018-11-08,12100,3305901,Sudeste,Inundações,Hidrológico,1
 RJ-J-3306008-12200-20090213,Três Rios,RJ,2009-02-13,12200,3306008,Sudeste,Enxurradas,Hidrológico,1
-RJ-P-3306008-12200-20091112,Três Rios,RJ,2009-11-12,12200,3306008,Sudeste,Enxurradas,Hidrológico,1
+RJ-A-3306008-12200-20091112,Três Rios,RJ,2009-11-12,12200,3306008,Sudeste,Enxurradas,Hidrológico,1
 RJ-J-3306008-12200-20110112,Três Rios,RJ,2011-01-12,12200,3306008,Sudeste,Enxurradas,Hidrológico,1
 RJ-J-3306008-12200-20120101,Três Rios,RJ,2012-01-01,12200,3306008,Sudeste,Enxurradas,Hidrológico,1
 RJ-F-3306008-12100-20180304,Três Rios,RJ,2018-03-04,12100,3306008,Sudeste,Inundações,Hidrológico,1
@@ -2008,7 +2000,6 @@ SP-C-3508603-12100-20120128,Cachoeira Paulista,SP,2012-01-28,12100,3508603,Sudes
 SP-J-3508603-12300-20130209,Cachoeira Paulista,SP,2013-02-09,12300,3508603,Sudeste,Alagamentos,Hidrológico,1
 SP-R-3508603-12300-20130215,Cachoeira Paulista,SP,2013-02-15,12300,3508603,Sudeste,Alagamentos,Hidrológico,1
 SP-J-3508702-12100-20121209,Caconde,SP,2012-12-09,12100,3508702,Sudeste,Inundações,Hidrológico,1
-SP-F-3508702-12100-20121209,Caconde,SP,2013-03-15,12100,3508702,Sudeste,Inundações,Hidrológico,1
 SP-A-3508801-12200-20100129,Cafelândia,SP,2010-01-29,12200,3508801,Sudeste,Enxurradas,Hidrológico,1
 SP-C-3508900-12100-20130113,Caiabu,SP,2013-01-13,12100,3508900,Sudeste,Inundações,Hidrológico,1
 SP-R-3508900-12200-20130412,Caiabu,SP,2013-04-12,12200,3508900,Sudeste,Enxurradas,Hidrológico,1
@@ -2101,7 +2092,6 @@ SP-A-3515509-12100-20110311,Fernandópolis,SP,2011-03-11,12100,3515509,Sudeste,I
 SP-A-3515608-12200-20080221,Fernando Prestes,SP,2008-02-21,12200,3515608,Sudeste,Enxurradas,Hidrológico,1
 SP-A-3515608-12200-20090213,Fernando Prestes,SP,2009-02-13,12200,3515608,Sudeste,Enxurradas,Hidrológico,1
 SP-A-3515707-12200-20080112,Ferraz de Vasconcelos,SP,2008-01-12,12200,3515707,Sudeste,Enxurradas,Hidrológico,1
-SP-C-3515707-12300-20090309,Ferraz de Vasconcelos,SP,2009-03-09,12300,3515707,Sudeste,Alagamentos,Hidrológico,1
 SP-C-3515707-12100-20100125,Ferraz de Vasconcelos,SP,2010-01-25,12100,3515707,Sudeste,Inundações,Hidrológico,1
 SP-R-3515707-12200-20130214,Ferraz de Vasconcelos,SP,2013-02-14,12200,3515707,Sudeste,Enxurradas,Hidrológico,1
 SP-F-3515707-12100-20150213,Ferraz de Vasconcelos,SP,2015-04-06,12100,3515707,Sudeste,Inundações,Hidrológico,1
@@ -2343,7 +2333,6 @@ SP-F-3531704-12300-20181125,Monteiro Lobato,SP,2018-11-25,12300,3531704,Sudeste,
 SP-A-3531803-12200-20100125,Monte Mor,SP,2010-01-25,12200,3531803,Sudeste,Enxurradas,Hidrológico,1
 SP-J-3531803-12100-20110104,Monte Mor,SP,2011-01-04,12100,3531803,Sudeste,Inundações,Hidrológico,1
 SP-F-3531803-12300-20190104,Monte Mor,SP,2019-01-04,12300,3531803,Sudeste,Alagamentos,Hidrológico,1
-SP-F-3531803-12300-20220130,Monte Mor,SP,2022-01-30,12300,3531803,Sudeste,Alagamentos,Hidrológico,1
 SP-F-3532009-12200-20180103,Morungaba,SP,2018-01-03,12200,3532009,Sudeste,Enxurradas,Hidrológico,1
 SP-J-3532405-12100-20110103,Nazaré Paulista,SP,2011-01-03,12100,3532405,Sudeste,Inundações,Hidrológico,1
 SP-C-3532405-12100-20110203,Nazaré Paulista,SP,2011-02-03,12100,3532405,Sudeste,Inundações,Hidrológico,1
@@ -2404,15 +2393,13 @@ SP-C-3538709-12200-20091230,Piracicaba,SP,2009-12-30,12200,3538709,Sudeste,Enxur
 SP-J-3538709-12200-20110106,Piracicaba,SP,2011-01-06,12200,3538709,Sudeste,Enxurradas,Hidrológico,1
 SP-R-3539202-12300-20111122,Pirapozinho,SP,2011-11-22,12300,3539202,Sudeste,Alagamentos,Hidrológico,1
 SP-F-3539400-12200-20160113,Piratininga,SP,2016-01-13,12200,3539400,Sudeste,Enxurradas,Hidrológico,1
-SP-A-3539806-12200-20100204,Poá,SP,2010-02-04,12200,3539806,Sudeste,Enxurradas,Hidrológico,1
 SP-A-3539806-12200-20100319,Poá,SP,2010-03-19,12200,3539806,Sudeste,Enxurradas,Hidrológico,1
 SP-C-3540705-12300-20090224,Porto Ferreira,SP,2009-02-24,12300,3540705,Sudeste,Alagamentos,Hidrológico,1
-SP-F-3540705-12300-20130130,Porto Ferreira,SP,2013-07-11,12300,3540705,Sudeste,Alagamentos,Hidrológico,1
+SP-F-3540705-12100-20130223,Porto Ferreira,SP,2013-07-11,12100,3540705,Sudeste,Inundações,Hidrológico,1
 SP-F-3540705-12300-20170521,Porto Ferreira,SP,2017-05-21,12300,3540705,Sudeste,Alagamentos,Hidrológico,1
 SP-A-3540853-12200-20091229,Pracinha,SP,2009-12-29,12200,3540853,Sudeste,Enxurradas,Hidrológico,1
 SP-P-3540853-12200-20101227,Pracinha,SP,2010-12-27,12200,3540853,Sudeste,Enxurradas,Hidrológico,1
 SP-R-3540853-12200-20130114,Pracinha,SP,2013-01-14,12200,3540853,Sudeste,Enxurradas,Hidrológico,1
-SP-F-3540853-12200-20130114,Pracinha,SP,2013-04-03,12200,3540853,Sudeste,Enxurradas,Hidrológico,1
 SP-C-3541000-12300-20091201,Praia Grande,SP,2009-12-01,12300,3541000,Sudeste,Alagamentos,Hidrológico,1
 SP-J-3541059-12200-20130116,Pratânia,SP,2013-01-16,12200,3541059,Sudeste,Enxurradas,Hidrológico,1
 SP-A-3541208-12200-20090113,Presidente Bernardes,SP,2009-01-13,12200,3541208,Sudeste,Enxurradas,Hidrológico,1
