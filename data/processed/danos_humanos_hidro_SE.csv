@@ -1,0 +1,5 @@
+janela,data_ini,data_fim,recorte,cobrade,dedup,n_registros,n_municipios,obitos_DH_MORTOS,desabrigados_DH_DESABRIGADOS,desalojados_DH_DESALOJADOS,nan_forcados_zero
+2008-2022,2008-01-01,2022-12-31,sudeste_inteiro,12100;12200;12300,nao,2685,928,1196,121997,809445,0
+2008-2022,2008-01-01,2022-12-31,133_munic_estacao,12100;12200;12300,nao,408,100,859,34639,260215,0
+2012-2022,2012-01-01,2022-12-31,sudeste_inteiro,12100;12200;12300,nao,1334,649,135,33004,292150,0
+2012-2022,2012-01-01,2022-12-31,133_munic_estacao,12100;12200;12300,nao,215,75,30,6180,86361,0
