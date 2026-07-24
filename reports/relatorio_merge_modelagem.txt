@@ -1,0 +1,57 @@
+RELATÓRIO DO MERGE — TABELA DE MODELAGEM (município-dia)
+========================================================================
+Gerado em 2026-07-24.
+
+FONTES
+  X (preditores): imports_tratadas_usar_esse/features_diarias_municipio_v4.parquet
+                  (Google Drive) — precipitação diária consolidada por município.
+  Y (rótulo):     data/processed/y_eventos_estacoes.csv — 401 eventos hidro-SE
+                  2008–2022, COBRADE {12100,12200,12300}, dedup ibge×data.
+
+MÉTODO
+  LEFT JOIN a partir do X: mantém TODOS os município-dia com feature;
+  chave = CODIGO_MUNICIPIO_IBGE × data_local  =  ibge × data.
+  evento = 1 se existe registro de desastre naquele município-dia, senão 0.
+  (Y sem duplicata ibge×data: 401 linhas = 401 pares distintos, sem fan-out.)
+
+SAÍDA
+  data/processed/dataset_modelagem_municipio.parquet (Parquet ZSTD)
+  Linhas (município-dia): 578,226
+  Positivos (evento=1):   323   ->  prevalência 0.056%
+  Negativos:              577,903
+  Colunas (17): MUNICIPIO, CODIGO_MUNICIPIO_IBGE, UF, data_local, n_estacoes, precip_dia, precip_24h, precip_48h, precip_72h, precip_max_horaria, horas_imputadas_72h, janela_valida, evento, protocolo, cobrade, descricao_tipologia, grupo_de_desastre
+
+POSITIVOS NÃO INCORPORADOS (78 de 401)
+  Todos são eventos em municípios que EXISTEM no X, mas cuja DATA do evento
+  não tem linha de feature porque cai fora da cobertura da série da estação:
+     - 77 antes do início da série da estação do município
+     -  1 depois do fim da série
+  São positivos estruturalmente inobserváveis (não há preditor de chuva para
+  aquele dia). O merge, partindo do X, corretamente NÃO os força para dentro.
+  Concentração: 2008–2013 (estações instaladas depois). 
+  Lista completa: reports/eventos_sem_feature_municipio.csv
+
+  => 401 eventos no Y  ->  323 com feature (entram como evento=1)  +  78 sem feature.
+
+QUALIDADE DOS POSITIVOS
+  janela_valida=True : 298    janela_valida=False : 25
+  (25 positivos têm janela de acumulado 72h incompleta — avaliar filtro no treino.)
+  Por tipologia: Inundações 123 / Enxurradas 117 / Alagamentos 83.
+
+DISTRIBUIÇÃO POR ANO (linhas / positivos)
+ ano  linhas  positivos
+2008   33101       31.0
+2009   33945       48.0
+2010   34348       32.0
+2011   35110       32.0
+2012   35245       23.0
+2013   35207       36.0
+2014   35405        2.0
+2015   35792        3.0
+2016   37128       10.0
+2017   41232        3.0
+2018   44146       19.0
+2019   44988        8.0
+2020   44561       22.0
+2021   44165       22.0
+2022   43853       32.0
