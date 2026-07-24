@@ -2,6 +2,7 @@
 pandas
 numpy
 pyarrow          # leitura/escrita dos parquets por estação
+duckdb           # merge X+Y e consultas nos parquets (src/features/)
 openpyxl         # leitura do BD_Atlas (.xlsx)
 
 # Visualização

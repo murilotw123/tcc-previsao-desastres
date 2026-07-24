@@ -53,11 +53,23 @@ tccfiles/
 
 - `src/data/processar_inmet.py` — consolida os CSVs anuais brutos do INMET
   (extrai os 8 campos do cabeçalho para colunas e concatena tudo).
+- `src/data/atlas_consolidado.py` — pipeline da tabela-alvo Y (Atlas 1991–2025):
+  filtra eventos hidro-SE, dedup por ibge×data, gera `y_eventos_*.csv`.
 - `src/data/topodata_mosaico.py` — monta o mosaico GeoTIFF de declividade do
   Sudeste a partir dos rasters do TOPODATA.
+- `src/features/merge_features_target.py` — cruza X (features diárias por município)
+  com o Y por ibge×data → `dataset_modelagem_municipio.parquet` (rótulo evento 0/1).
+- `src/features/comparar_versoes_features.py` — compara versões das features
+  diárias (ex.: v3 vs v4) para escolher a canônica.
+- `src/features/teste_sinal.py` — teste de sinal: separabilidade da precipitação
+  entre dias de evento e dias normais (percentis, AUC, boxplots).
 - `notebooks/01_extract_inmet.ipynb` — extração/consolidação da base INMET.
 - `notebooks/02_extract_s2id.ipynb` — extração dos registros de desastres (S2iD/Atlas).
 - `notebooks/TOPODATA_Sudeste.ipynb` — processamento das variáveis topográficas.
+
+> A limpeza/imputação horária do INMET (pipeline DuckDB) foi feita em Colab da dupla
+> (`TCC_AnaliseDuck.ipynb`, não versionado). O registro metodológico dessa etapa está
+> em `docs/tratamento_dados_resumo.md` e `docs/guia_dataset_modelagem.md`.
 
 ## Pipeline (estado atual)
 
@@ -77,6 +89,15 @@ tccfiles/
    `data/processed/y_eventos_estacoes.csv` (**entregável**: só municípios com estação).
    Validação em `reports/relatorio_validacao_atlas.txt`.
    Especificação completa em `docs/TASK_atlas_consolidado.md`.
+6. **Merge X + Y (tabela de modelagem)** — `src/features/merge_features_target.py`
+   cruza as features diárias por município (`features_diarias_municipio_v4`, do Drive)
+   com o Y por ibge×data → `data/processed/dataset_modelagem_municipio.parquet`
+   (município-dia com rótulo `evento` 0/1). Relatório em
+   `reports/relatorio_merge_modelagem.txt`; escolha da versão em
+   `reports/comparacao_v3_v4.md`.
+7. **Teste de sinal** — `src/features/teste_sinal.py`: a precipitação separa dias de
+   evento de dias normais (AUC ≈ 0,82 para `precip_dia`). Resumo em
+   `reports/teste_sinal.md`, figuras em `reports/figures/`.
 
 ## Como configurar o ambiente
 
